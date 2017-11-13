@@ -1,0 +1,1685 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# books: http://ogp.me/ns/books#">
+      <!--[if lte IE 9]>
+      <script>location.replace('https://static.ridibooks.com/pages/end_support_ie.html');</script>
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="utf-8"/>
+  <meta name="format-detection" content="telephone=no">
+      <meta name="keywords" content="리디북스,리디,ridibooks,ridi,책,전자책,ebook"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ridibooks">
+<meta property="fb:app_id" content="208688205808637" />
+<meta property="og:url" content="https://ridibooks.com" />
+<meta property="og:title" content="RIDIBOOKS" />
+<meta property="og:image" content="https://static.ridibooks.com/books/dist/images/ridibooks.jpg" />
+<meta property="og:description" content="500만명이 인정한 최고의 eBook 서비스, 리디북스! 50만권의 eBook, 특별반값 도서, 최신 베스트셀러에서 빌려보는 만화/판무/잡지, 내 문서파일 (PDF/TXT/ePub) 뷰어 기능까지!" />
+<meta name="description" content="500만명이 인정한 최고의 eBook 서비스, 리디북스! 50만권의 eBook, 특별반값 도서, 최신 베스트셀러에서 빌려보는 만화/판무/잡지, 내 문서파일 (PDF/TXT/ePub) 뷰어 기능까지!"/>
+    <meta name="msapplication-TileImage" content="https://static.ridibooks.com/books/dist/favicon/favicon_win8.png"/>
+<meta name="msapplication-TileColor" content="#1f8ee6"/>
+<meta name="theme-color" content="#ffffff" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-57x57.png?150320">
+<link rel="apple-touch-icon" sizes="60x60" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-60x60.png?150320">
+<link rel="apple-touch-icon" sizes="72x72" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-72x72.png?150320">
+<link rel="apple-touch-icon" sizes="76x76" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-76x76.png?150320">
+<link rel="apple-touch-icon" sizes="114x114" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-114x114.png?150320">
+<link rel="apple-touch-icon" sizes="120x120" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-120x120.png?150320">
+<link rel="apple-touch-icon" sizes="144x144" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-144x144.png?150320">
+<link rel="apple-touch-icon" sizes="152x152" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-152x152.png?150320">
+<link rel="apple-touch-icon" sizes="180x180" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-180x180.png?150320">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://static.ridibooks.com/books/dist/favicon/android-icon-192x192.png?150320">
+<link rel="shortcut icon" href="https://static.ridibooks.com/books/dist/favicon/ridibooks.ico">  <title>리디북스</title>
+
+    <link title="리디북스 검색" rel="search" type="application/opensearchdescription+xml" href="https://static.ridibooks.com/books/dist/xml/open_search_description.xml?20171110183258">
+
+        <link rel="stylesheet" href="https://static.ridibooks.com/books/dist/css/common/nanumgothic.css?150324"/>
+    <link rel="stylesheet" href="https://static.ridibooks.com/books/dist/css/page_base.css?20171110183316"/>
+        <link rel="stylesheet" href="https://static.ridibooks.com/books/dist/css/page_reading_note_detail.css?20171110183322"/>
+  
+        <script>
+  var Ridi = Ridi || {};
+  Ridi.globals = {
+    isLoggedIn: true,
+    userId: 'degan85',
+    userEmail: 'degan8535@gmail.com',
+    isPc: true,
+    isTablet: false,
+    isMobile: false,
+    isPaper: false,
+    isRidiApp: false,
+    isNotUseNotificationCenter: false,     apiUrl: 'https://api.ridibooks.com',
+    notificationApiUrl: 'https://d5aft0t1kf.execute-api.ap-northeast-2.amazonaws.com/prod',
+    apiToken: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiJkZWdhbjg1IiwiZXhwIjoxNTEwMzk0MDk4fQ.-NhmvHkFh3YvVhow2fL_uxOg2xXVolGW-jsv5B_LUBg',
+    sslHostLink: 'https://ridibooks.com'
+  };
+</script>
+  <script src="https://static.ridibooks.com/books/dist/vendors.webpack.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/vendors.common.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/vendors.common2.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/vendors.pc.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/rui.min.js?20171110183259"></script>
+  <script src="https://static.ridibooks.com/books/dist/ridi.common.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/ridi.common2.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/ridi.pc.min.js?20171110183333"></script>
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://ridibooks.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ridibooks.com/search/?q={q}&amp;referer=sitelinks_searchbox",
+    "query-input": "required name=q"
+  }
+}
+</script>    <script>
+    var BOOK_ID = 1811028266;
+    var DETAIL_SCRAP_LIMIT = 20;
+  </script>
+  <script src="https://static.ridibooks.com/books/dist/reading_note_detail.min.js?20171110183333"></script>
+</head>
+
+<body id="ridi_books" class="pc_device">
+  <div id="base_tools_wrapper">
+    <a class="indent_hidden" href="#books_contents">본문 바로가기</a>
+    
+<p id="access_check" style="padding: 20px; text-align: center; border: 1px solid #dfdfdf; background: #fafafa; font-size: 14px; color: #333; line-height: 1.6em;">
+  리디북스 접속이 원활하지 않습니다. 새로 고침(F5)해주세요. <br>
+  계속해서 문제가 발생한다면 리디북스 접속 테스트를 통해 원인을 파악하고 대응 방법을 안내드리겠습니다.<br>
+  <a href="/access-check/" style="display: inline-block; margin-top: 10px; text-decoration: underline; font-weight: bold; color: #0282da;">
+    테스트 페이지로 이동하기
+  </a>
+</p>
+      </div>
+  <div id="base_contents_wrapper">
+        <header id="books_header">
+      <div class="header_top">
+        <div class="top_contents">
+          <div class="top_left">
+            <h1 id="main_logo">
+              <a href="/" class="main_logo_link">
+                <span class="main_logo_icon"></span>
+                <span class="indent_hidden">RIDIBOOKS</span>
+              </a>
+            </h1>
+                                        <div class="search_wrap js_search_wrap">
+          <form id="search_form" class="search_input_box_wrapper" action="  /search">
+    <fieldset class="search_field">
+      <legend class="indent_hidden">리디북스 검색</legend>
+      <input id="book_search_input"
+             class="search_window search_input js_search_input"
+             name="q"
+             type="search"
+             role="search"
+             title="서점 전체 검색어 입력"
+             placeholder="제목, 저자, 출판사 검색"
+             value=""
+             autocorrect="off"
+             autocomplete="off"
+             autocapitalize="off"
+             aria-labelledby="label_search"
+             data-user-keyword=""
+             required />
+      <label for="book_search_input" class="indent_hidden">서점 전체 검색어 입력</label>
+              <span class="icon-search"></span>
+            <button class="btn_reset_search_input js_btn_reset_search_input" type="button">
+        <span class="icon-close_2 delete_icon"></span>
+        <span class="indent_hidden">검색어 삭제</span>
+      </button>
+      <button class="indent_hidden" type="submit">검색</button>
+    </fieldset>
+  </form>
+
+        <div class="search_preview" id="book_search_result"></div>
+        <div class="search_history_wrap js_search_history_wrap">
+    <p class="search_history_title">최근 검색어</p>
+    <ul id="search_history" class="js_search_history">
+      <li class="js_search_history_tmpl">
+        <a class="link js_link"></a>
+        <button type="button" class="btn_del_history js_btn_del_history">
+          <span class="icon-close_2 btn_clear_history_item"></span><span class="indent_hidden">최근 검색어 제거</span>
+        </button>
+      </li>
+    </ul>
+    <button type="button" class="btn_clear_history js_btn_clear_history">최근 검색어 전체 삭제</button>
+  </div>
+
+  </div>
+
+          </div>
+          <div class="top_right">
+            <ul class="right_list_wrapper">
+                              
+
+<script type="text/x-jquery-tmpl" id="gnb_noti_tmpl">
+  <li class="noti_list ${newClass}">
+    <div class="list_table">
+      <div class="list_left">
+        <span class="noti_icon ${iconClass}">
+          <img src="${imageUrl}" alt="리디북스 알림">
+        </span>
+      </div>
+      <div class="list_right">
+        <div class="noti_title">
+          {{html message}}
+        </div>
+        <div class="noti_time" data-created="${createdAt}">
+          <p>${strCreatedAt}</p>
+        </div>
+      </div>
+    </div>
+    <a class="btn_more trackable trackable_lazy" href="${landingUrl}" data-id="${itemId}" data-url="${landingUrl}" data-track-params="${logData}" data-track-type="beacon,ga"><span class="indent_hidden">더보기</span></a>
+  </li>
+</script>
+
+
+                <li class="top_right_item menu_noti pc_hover js_track_trigger_mouseenter">
+                  <a href="/notification" id="gnb_noti_link">
+                    <span class="indent_hidden">리디 알림센터</span><span class="icon-bell_1"></span>
+                    <span class="indent_hidden">, 새로운 알림 </span><span class="noti_num museo_sans hidden"></span><span class="indent_hidden">개</span>
+                  </a>
+                  <div id="notiMenuPopup" class="GNB_popup">
+                    <div class="arrow_wrapper">
+                      <span class="icon-arrow_1_up arrow_up_black"></span>
+                      <span class="icon-arrow_1_up arrow_up_steelblue"></span>
+                    </div>
+                    <h3 class="indent_hidden">알림센터 팝업</h3>
+                    <div class="popup_contents">
+                      <p class="popup_header">
+                        <span class="popup_header_title">알림센터</span>
+                        <span class="btn_link">
+                          <a href="/notification/">전체보기 <span class="icon-arrow_9_right"></span></a>
+                        </span>
+                      </p>
+                      <ul class="noti_list_wrapper">
+                      </ul>
+                      <p class="noti_empty_text indent_hidden">새로운 알림이 없습니다.</p>
+                      <div class="spin"></div>
+                      <div class="more_btn_wrapper">
+                        <a class="more_btn" href="/notification/"><span class="icon-dotdotdot"></span><span class="indent_hidden">더보기</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="top_right_item menu_user pc_hover">
+                  <a href="/account/myridi" id="gnb_myridi_link">마이리디</a>
+                  <div id="divMyMenuLayer" class="GNB_popup">
+                    <div class="arrow_wrapper">
+                      <span class="icon-arrow_1_up arrow_up_black"></span>
+                      <span class="icon-arrow_1_up arrow_up_steelblue"></span>
+                    </div>
+                    <div class="popup_contents">
+                      <h3 class="indent_hidden">마이리디 팝업</h3>
+                      <div class="header_wrapper">
+                        <p class="id_wrapper">
+                          <a class="myridi_link" href="/account/myridi">마이리디 홈 <span class="icon-arrow_9_right icon"></span></a>
+                        </p>
+                      </div>
+                      <div class="spin"></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="top_right_item menu_cart pc_hover">
+                  <a href="/cart" id="gnb_cart_link" class="menu_cart_link">카트 <span class="cart_num museo_sans">11</span></a>
+                  <div id="cartMenuPopup" class="GNB_popup">
+                    <div class="arrow_wrapper">
+                      <span class="icon-arrow_1_up arrow_up_black"></span>
+                      <span class="icon-arrow_1_up arrow_up_steelblue"></span>
+                    </div>
+                    <h3 class="indent_hidden">카트 팝업</h3>
+                    <div class="popup_contents">
+                      <p class="book_count">
+                        <span class="indent_hidden">카트에 담긴 도서:</span>
+                        <span class="count_num"></span>
+                        <span class="btn_link">
+                          <a href="/cart/">전체보기 <span class="icon-arrow_9_right"></span></a>
+                        </span>
+                      </p>
+                      <div class="spin"></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="top_right_item menu_wish pc_hover">
+                  <a href="/wishlist" id="gnb_wish_link" class="menu_wish_link">위시리스트</a>
+                  <div id="wishMenuPopup" class="GNB_popup">
+                    <div class="arrow_wrapper">
+                      <span class="icon-arrow_1_up arrow_up_black"></span>
+                      <span class="icon-arrow_1_up arrow_up_steelblue"></span>
+                    </div>
+                    <h3 class="indent_hidden">위시리스트 팝업</h3>
+                    <div class="popup_contents">
+                      <p class="book_count">
+                        <span class="indent_hidden">위시리스트에 담긴 도서:</span>
+                        <span class="count_num"></span>
+                        <span class="btn_link">
+                          <a href="/wishlist/">전체보기 <span class="icon-arrow_9_right"></span></a>
+                        </span>
+                      </p>
+                      <div class="spin"></div>
+                    </div>
+                  </div>
+                </li>
+                          </ul>
+          </div>
+        </div><hr class="clear_both">
+      </div>
+      <div class="header_middle">
+        <div class="middle_contents">
+          <nav class="middle_left">
+            <ul class="middle_left_list">
+              <li class="middle_left_item list_all_menu">
+                <button id="show_all_menu_btn" type="button" class="all_menu_button">
+                  <span class="middle_left_icon"></span>전체분야
+                </button>
+              </li>
+              <li class="middle_left_item list_general">
+                <a
+                  class="middle_left_link"
+                  href="/?genre=general">
+                  <span class="middle_left_icon"></span>일반
+                </a>
+              </li>
+              <li class="middle_left_item list_romance">
+                <a
+                  class="middle_left_link"
+                  href="/?genre=romance">
+                  <span class="middle_left_icon"></span>로맨스
+                </a>
+              </li>
+              <li class="middle_left_item list_fantasy">
+                <a
+                  class="middle_left_link"
+                  href="/?genre=fantasy">
+                  <span class="middle_left_icon"></span>판타지
+                </a>
+              </li>
+              <li class="middle_left_item list_comic">
+                <a
+                  class="middle_left_link"
+                  href="/?genre=comic">
+                  <span class="middle_left_icon"></span>만화
+                </a>
+              </li>
+                              <li class="middle_left_item list_bl">
+                  <a
+                    class="middle_left_link"
+                    href="/?genre=bl">
+                    <span class="middle_left_icon"></span>BL
+                  </a>
+                </li>
+                          </ul>
+          </nav>
+                      <ul class="middle_right">
+              <li class="list_element">
+                <a href="https://paper.ridibooks.com/Intro?utm_source=Ridibooks_PC&utm_medium=gnb_catchPhrase&utm_content=&utm_campaign=paperShop" target="_blank"
+                   class="middle_right_link">
+                  <span class="middle_right_icon icon-paper_1"></span> <span class="middle_right_icon icon-logo_paper_bold"></span>
+                  <span class="indent_hidden">PAPER</span>
+                </a>
+              </li>
+              <li class="list_element">
+                <a class="middle_right_link js_login_required" href="/order/checkout/cash">
+                  <span class="middle_right_icon icon-coin_2"></span> 리디캐시 충전
+                                  </a>
+              </li>
+            </ul>
+                    <div id="all_menu">
+            <h2 class="indent_hidden">리디북스 전체분야</h2>
+            <div class="all_menu_wrapper">
+              <button id="hide_all_menu_btn" type="button">
+                <span class="hide_all_menu_icon icon-menu_2"></span>전체분야<span class="indent_hidden"> 닫기</span>
+              </button>
+              
+  
+<div class="menu_column menu_general">
+  <div class="column_box">
+    <div class="list_wrap list_normal">
+                        <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_0 active">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/100">
+                소설
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/100">소설 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/101">한국소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/102">영미소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/103">일본소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/117">중국소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/116">북유럽소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/114">독일소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/115">프랑스소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/104">기타국가소설</a></li>
+                                                  <div class="category_separate"><hr></div>
+                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/107">추리/미스터리/스릴러</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/123">SF소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/124">국내판타지소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/125">해외판타지소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/118">국내역사소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/119">해외역사소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/120">대체역사소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/121">동양고전문학</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/122">서양고전문학</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_1 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/200">
+                경영/경제
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/200">경영/경제 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/210">경영일반</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/220">경제일반</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/230">마케팅/세일즈</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/240">재테크/금융/부동산</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/250">CEO/리더십</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_2 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/400">
+                인문/사회/역사
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/400">인문/사회/역사 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/410">인문</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/420">정치/사회</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/430">예술/문화</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/440">역사</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_3 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/300">
+                자기계발
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/300">자기계발 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/310">성공/삶의자세</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/320">기획/창의/리더십</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/330">설득/화술/협상</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/340">취업/창업</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/350">여성</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/360">인간관계</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_4 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/110">
+                에세이/시
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/110">에세이/시 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/111">에세이</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/112">시</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_5 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/800">
+                여행
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/800">여행 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/810">국내여행</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/820">해외여행</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_6 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/700">
+                종교
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/700">종교 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/710">종교일반</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/720">가톨릭</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/730">기독교(개신교)</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/740">불교</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/750">기타</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_7 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1000">
+                외국어
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1000">외국어 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1010">비즈니스영어</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1020">일반영어</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1030">제2외국어</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1040">어학시험</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_8 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1100">
+                과학
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1100">과학 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1110">과학일반</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1120">수학</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1130">자연과학</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1140">응용과학</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_9 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1900">
+                진로/교육/교재
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1900">진로/교육/교재 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1901">공부법</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1902">특목고/자사고</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1903">대입 수시</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1904">대입 논술</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1905">대입 합격수기</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1906">진로 탐색</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1907">유학/MBA</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1908">교재/수험서</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_10 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/2200">
+                컴퓨터/IT
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/2200">컴퓨터/IT 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2210">IT 비즈니스</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2220">개발/프로그래밍</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2230">컴퓨터/앱 활용</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2240">IT자격증</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2250">IT 해외원서</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_11 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/500">
+                건강/다이어트
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/500">건강/다이어트 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/510">다이어트/운동/스포츠</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/520">스타일/뷰티</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/530">건강</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_12 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/600">
+                가정/생활
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/600">가정/생활 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/610">결혼/임신/출산</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/620">육아/자녀교육</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/630">취미/요리/기타</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_13 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1300">
+                어린이/청소년
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1300">어린이/청소년 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1310">유아</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1320">어린이</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1330">청소년</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_14 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1400">
+                해외도서
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1400">해외도서 전체</a></li>
+                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_15 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/2000">
+                잡지
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/2000">잡지 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2001">경영/재테크</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2002">문학/교양</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2003">여성/패션/뷰티</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2004">디자인/예술</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2005">건강/스포츠</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2006">취미/여행/요리</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2007">과학/IT</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2008">종교</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2009">만화</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2010">성인(19+)</a></li>
+                                                          </ul>
+          </div>
+                                                                                                                                  </div>
+  </div>
+</div>
+
+<div class="menu_column menu_general_sub">
+  <div class="column_box">
+  </div>
+</div>
+
+<div class="menu_column menu_etc">
+  <div class="column_box">
+        <h3><a class="column_title title_comic" href="/category/1700">로맨스 단행본 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1701">현대물</a></li>
+                      <li><a class="sub_category_link" href="/category/1702">역사/시대물</a></li>
+                      <li><a class="sub_category_link" href="/category/1703">판타지물</a></li>
+                      <li><a class="sub_category_link" href="/category/1704">할리퀸소설</a></li>
+                      <li><a class="sub_category_link" href="/category/1706">19+</a></li>
+                      <li><a class="sub_category_link" href="/category/1708">TL소설</a></li>
+                      <li><a class="sub_category_link" href="/category/1709">섹슈얼 로맨스</a></li>
+                      <li><a class="sub_category_link" href="/category/1705">하이틴</a></li>
+      </ul>
+
+        <h3><a class="column_title title_comic" href="/category/1650">로맨스 연재 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1651">현대물</a></li>
+                      <li><a class="sub_category_link" href="/category/1652">역사/시대물</a></li>
+                      <li><a class="sub_category_link" href="/category/1653">판타지물</a></li>
+      </ul>
+
+  </div>
+</div>
+
+<div class="menu_column menu_etc">
+  <div class="column_box">
+        <h3><a class="column_title title_comic" href="/category/1710">판타지 단행본 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1711">정통판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1712">퓨전판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1713">현대판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1714">게임판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1715">대체역사물</a></li>
+                      <li><a class="sub_category_link" href="/category/1716">스포츠물</a></li>
+                        <div class="category_separate"></div>
+            <li><a class="sub_category_link" href="/category/1721">신무협</a></li>
+                      <li><a class="sub_category_link" href="/category/1722">전통무협</a></li>
+      </ul>
+
+        <h3><a class="column_title title_comic" href="/category/1750">판타지 연재 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1751">정통판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1752">퓨전판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1753">현대판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1754">무협소설</a></li>
+      </ul>
+
+
+    <div class="flatrate_banner_wrapper">
+      <a class="flatrate_banner_link" href="/category/subcategory/1710?flatrate=y&order=selling">
+        <strong class="flatrate_genre">판타지</strong> <br>자유이용권 도서
+        <span class="icon_wrapper"><span class="icon-arrow_9_right"></span></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="menu_column menu_etc">
+  <div class="column_box">
+        <h3><a class="column_title title_comic" href="/category/1500">만화 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1521">국내순정</a></li>
+                      <li><a class="sub_category_link" href="/category/1522">해외순정</a></li>
+                      <li><a class="sub_category_link" href="/category/1519">드라마</a></li>
+                      <li><a class="sub_category_link" href="/category/1535">성인</a></li>
+                      <li><a class="sub_category_link" href="/category/1551">할리퀸</a></li>
+                      <li><a class="sub_category_link" href="/category/1513">무협</a></li>
+                      <li><a class="sub_category_link" href="/category/1517">학원</a></li>
+                      <li><a class="sub_category_link" href="/category/1515">액션</a></li>
+                      <li><a class="sub_category_link" href="/category/1527">판타지/SF</a></li>
+                      <li><a class="sub_category_link" href="/category/1525">스포츠</a></li>
+                      <li><a class="sub_category_link" href="/category/1523">코믹</a></li>
+                      <li><a class="sub_category_link" href="/category/1531">공포/추리</a></li>
+                      <li><a class="sub_category_link" href="/category/1509">만화잡지</a></li>
+      </ul>
+
+
+    <div class="flatrate_banner_wrapper">
+      <a class="flatrate_banner_link" href="/category/subcategory/1500?flatrate=y&order=selling">
+        <strong class="flatrate_genre">만화</strong> <br>자유이용권 도서
+        <span class="icon_wrapper"><span class="icon-arrow_9_right"></span></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="menu_column menu_etc">
+  <div class="column_box">
+              <h3><a class="column_title title_comic" href="/category/4000">BL 단행본 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/4002">국내소설</a></li>
+                      <li><a class="sub_category_link" href="/category/4003">해외소설</a></li>
+                      <li><a class="sub_category_link" href="/category/4001">국내만화</a></li>
+                      <li><a class="sub_category_link" href="/category/4004">해외만화</a></li>
+      </ul>
+
+          <h3><a class="column_title title_comic" href="/category/4050">BL 연재 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/4051">소설</a></li>
+                      <li><a class="sub_category_link" href="/category/4055">만화</a></li>
+      </ul>
+
+            <h3><a class="column_title title_comic" href="/category/3000">라이트노벨 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/3001">남성향 라노벨</a></li>
+                      <li><a class="sub_category_link" href="/category/3003">여성향 라노벨</a></li>
+                      <li><a class="sub_category_link" href="/category/3002">TL</a></li>
+      </ul>
+
+  </div>
+</div>
+
+            </div><hr class="clear_both">
+          </div>
+        </div><hr class="clear_both">
+      </div>
+                </header>
+
+        <div id="books_contents">
+      <div id="contents_wrap">
+                  <div id="ridi_left_menu" class="myridi_left_menu">
+  <h3 class="menu_title">마이리디</h3>
+  <nav class="menu_wrapper">
+    <div class="menu_section">
+      <a class="section_title myridi_home_link" href="/account/myridi">
+        <span class="icon-home_1 myridi_left_icon"></span>마이리디 홈
+      </a>
+    </div>
+    <div class="menu_section">
+      <h4 class="section_title"><span class="icon-book_1 myridi_left_icon"></span>책</h4>
+      <ul class="section_list">
+        <li class="section_list_element"><a class="section_link" href="/library/">구매 목록</a></li>
+        <li class="section_list_element"><a class="section_link" href="/notification/">알림센터</a></li>
+        <li class="section_list_element"><a class="section_link" href="/notification/new-release/author">신간알림</a></li>
+        <li class="section_list_element"><a class="section_link" href="/library/recents">최근 본 책</a></li>
+        <li class="section_list_element"><a class="section_link active" href="/reading-note/timeline">독서노트</a></li>
+      </ul>
+    </div>
+    <div class="menu_section">
+      <h4 class="section_title"><span class="icon-payment_2 myridi_left_icon"></span>구매 / 혜택</h4>
+      <ul class="section_list">
+        <li class="section_list_element"><a class="section_link" href="/order/history">결제 내역</a></li>
+        <li class="section_list_element"><a class="section_link" href="/order/checkout/cash">리디캐시</a></li>
+        <li class="section_list_element"><a class="section_link" href="/order/history_point">리디포인트</a></li>
+        <li class="section_list_element"><a class="section_link" href="/coupon/">쿠폰</a></li>
+        <li class="section_list_element"><a class="section_link" href="/flatrate/manage">이용권 관리</a></li>
+      </ul>
+    </div>
+    <div class="menu_section">
+      <h4 class="section_title"><span class="icon-user_1 myridi_left_icon"></span>개인</h4>
+      <ul class="section_list">
+        <li class="section_list_element"><a class="section_link" href="https://ridihelp.zendesk.com/hc/ko/requests/new" target="_blank">1:1 문의</a></li>
+        <li class="section_list_element"><a class="section_link" href="/account/devices">내 기기 관리</a></li>
+        <li class="section_list_element"><a class="section_link" href="/review/">내 리뷰 관리</a></li>
+        <li class="section_list_element"><a class="section_link" href="/account/modify">정보변경</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+                        <section id="page_reading_note_detail">
+    <h2 class="module_pagetitle">
+      <a class="pagetitle_text title_link js_reading_note_title_link"><span class="icon-arrow_8_left"></span> 독서노트</a>
+    </h2>
+    <article>
+      <div class="detail_header">
+                <div class="note_book_title_wrapper">
+          <div class="table_cell_wrapper">
+            <span class="icon-title_deco_right"></span>
+            <h3 class="title"><a class="title_link" href="/v2/Detail?id=1811028266">완벽한 공부법</a></h3>
+            <p class="author">
+                            <a class="author_detail_link" href="/author/3645">고영성</a>,          <a class="author_detail_link" href="/author/62859">신영준</a>           저            </p>
+          </div>
+        </div>
+        <div class="book_macro_110">
+                                      
+    
+    <div class="book_thumbnail_wrapper" data-book_id_for_tracking="1811028266">
+    <div class="book_thumbnail">
+            <div class="thumbnail_image">
+                  <img class="thumbnail" src="//misc.ridibooks.com/cover/1811028266/large" alt="완벽한 공부법" data-original-cover="//misc.ridibooks.com/cover/1811028266/xxlarge" />
+                <span class="border"></span>
+      </div>
+
+      
+      
+                    
+      
+              <a class="thumbnail_btn " href="/v2/Detail?id=1811028266" data-track-params="" data-track-type="">
+          <span class="indent_hidden">상세페이지 바로가기</span>
+        </a>
+      
+      
+      
+      
+    </div>
+  </div>
+
+        </div>
+      </div>
+      <div class="detail_body">
+        <div class="select_wrapper">
+          <div class="rui_select_2 js_select_wrapper">
+            <input type="hidden" class="js_selected_value" value="total">
+            <button type="button" class="select_button js_select_button">
+              <span class="js_selected_text selected_text">
+                                  <span class="icon-highlighter_1"></span>
+                 전체 <span class="num">20</span>
+              </span>
+              <span class="arrow_icon"></span>
+            </button>
+            <ul class="options js_select_options">
+                                                <li>
+                    <button type="button" class="option js_select_option selected" value="total" data-count="20">
+                                              <span class="icon-highlighter_1"></span>
+                       전체 <span class="num">20</span>
+                      <span class="check_icon"></span>
+                    </button>
+                  </li>
+                                                                                              <li>
+                    <button type="button" class="option js_select_option" value="yellow" data-count="20">
+                                              <span class="highlighter_color color_highlighter_yellow"></span>
+                       노랑 <span class="num">20</span>
+                      <span class="check_icon"></span>
+                    </button>
+                  </li>
+                                                                                                                                                                                                </ul>
+          </div>
+        </div>
+        <ul class="note_list_wrapper js_reading_note_list_wrapper">
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      이렇게 부정적 감정을 긍정적 감정으로 재정의하는 것은 시험 당일에만 효용이 있는 것이 아니다. 평소에 하면 공부 전반에 도움을 받을 수 있다. 부정적 감정이 들 때마다 그것을 긍정적인 단어로 재정의해 생각하거나 그것을 글로 쓰게 한다면 평소 긍정적 에너지를 유지하는 좋은 전략이 된다. 또한, 매일 감사 일기를 쓰거나 친한 친구들과 서로에 대한 장점을 이야기하는 시간을 자주 갖는다면 평소 긍정적 감정을 유지할 뿐만 아니라 앞에서 살펴보았듯이 공부 효율에서도 상당한 도움을 받게 될 것이다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193261" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      그런데 대부분 사람은 오른쪽 귀에 들려오는 소리에 민감하다. 즉 언어적인 정보가 오른쪽 귀로 전달될 때 더 쉽게 인지된다는 뜻이다. 그래서 아무런 지시를 하지 않으면 오른쪽 귀로 들려오는 내용에 귀를 기울이는 경향이 있다
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193262" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      하지만 아이들이 어른이 되자 양상은 달라졌다. 페리유치원을 다닌 아이들이 그렇지 않은 아이들보다 20대 후반에 직업을 구할 확률이 더 높았고 40세에 연간 2만 5천 달러의 소득을 더 올렸으며 범죄에 연루될 확률도 훨씬 낮았다. 과연 무엇이 아이들을 변화시킨 것일까? 노벨상 수상자인 헤크먼 교수는 면밀한 연구를 통해 2년 동안의 유치원 생활이 올려 준 것은 아이들의 인지기술이 아닌 비인지기술 즉, 자제력, 호기심 그리고 사회성이었음을 알아냈다. 페리유치원은 실패하지 않았다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193263" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      무언가 열심히 온 힘을 다해 노력하는 것은 좋다. 하지만 우리는 노력만이 능사가 아님을 배웠다. 제대로 된 방법으로 노력해야 한다. 그런데 그 방법이 무언가를 하는 것만 말하는 것은 아니다. 때로는 아무것도 안 해야 할 때가 있다. 열심히 공부와 일에 몰두했다면 한가로운 시간을 갖고 쉬어야 한다. 이 또한 중요한 학습 전략이다. 또한, 휴식은 피로를 풀고 힘을 회복하는 데만 도움이 되는 것은 아니다. 휴식에 들어가면 뇌는 우리가 무언가 집중할 때 하지 못했던 것을 해내기 시작한다. 무의식이 힘을 발휘하는 것이다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193264" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      쥐를 대상을 한 실험이기에 인간에게 바로 적용할 수는 없지만, 이 실험을 통해 우리는 학습에 최적화된 운동은 유산소 운동임을 추론해 볼 수 있다. 그리고 이는 타당한 추론으로 보인다. 인지심리학자 아서 크래머가 노인들을 대상으로 한 연구에서도 뇌 건강에 가장 큰 호전을 가져다주었던 운동은 근력 강화운동이 아니라 유산소 운동이었다.168 그리고 앞서 소개한 여러 연구 성과에서도 대부분 사람이 유산소 운동을 했음을 알 수 있다.
+
+  꾸준히 걷기와 달리기는 학습에 도움을 주는 것은 거의 확실해 보인다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193266" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      그렇다면 언제, 얼마나 운동을 해야 할까? 걷거나 달리기를 하면서 무언가를 들으며 공부를 할 수 있다. 시간이 부족하다면 그렇게 활용할 수도 있다. 하지만 공부와 관련해 운동의 최적 시기는 공부를 하기 전이다. 왜냐하면, 운동 중에는 인지능력의 최상위 역할을 하는 전전두엽에 혈류량이 많지가 않아 집중도 있는 공부가 잘 안 된다. 하지만 운동을 끝내면 그 즉시 전전두엽에 혈류량이 많아지면서 학습을 위한 최상의 상태에 돌입하게 된다. 존 레이터는 일주일에 4~5회, 30분씩 운동을 하는 것이 가장 좋다고 조언한다.
+
+  운동이야말로 최고의 공부 전략임을 잊지 말자.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193267" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      천장 높이가 사람들의 추상적 사고에 영향을 미칠까? 당신의 천장이 3미터인 곳에서 하는 추상적 사고와 천장이 2.4미터인 곳에서 하는 추상적 사고는 다를까? 연구 결과 흥미롭게도 그렇다고 한다.184
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193269" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      좀 넓은 공간에서 여러 식물도 보고 창밖으로는 멋진 나무들이 보이는 곳에서 공부하게 된다면 상당한 공부 효율을 얻을 수 있을 것이다. 다 하기 힘들다면 최소한 식물과 창문 정도는 꼭 있는 곳에서 공부하자.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193270" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      2013년 연구에 따르면 의자가 각진 모양으로 배치된 곳에 가면 개성 표현이나 개별성에 집중하는 반면 둥글게 배치된 방에 들어가면 집단 소속감에 더 집중한다는 것이 밝혀졌다. 의자 배치가 무의식적으로 사람의 관점을 바꾼 것이다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193271" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      숙달한 사람들은 인터넷을 사용할 때 외측 전전두엽 피질로 불리는 뇌의 특정 부위를 활용했는데 인터넷 초보자들은 그쪽 부위에 반응이 없는 것은 아니었지만, 매우 미비했다. 뇌 사용에 확실한 차이가 있었다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193272" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      그런데 인터넷을 사용할 때 전전두엽이 활성화된다는 것에 주목할 필요가 있다. 전전두엽은 문제 해결이나 의사결정을 담당하는 부위로서 독서를 할 때는 거의 활성화되지 않는 부위다. 독서를 할 때의 뇌를 살펴보면 언어, 기억, 시각적 처리 등과 관련된 부분이 활발하게 활동한다. 그런데 왜 인터넷의 웹페이지를 읽을 때는 독서를 할 때 쓰지 않는 문제 해결 및 의사결정 담당 부위가 활성화되는 것일까?
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193273" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      이렇듯 인터넷에서는 우리의 인지 자원을 콘텐츠에 집중시키지 못하고 다른 데에 사용하게 하는 다양한 방해물들이 있는 것이다.
+
+  이런 것들이 있어도 그냥 무시하면 되지 않느냐고 반문할 수도 있다. 하지만 우리 주의 체계는 정지되어 있거나 변하지 않는 대상에는 관심을 별로 두지 않지만, 변화하거나 실제 변화 가능성이 있는 대상에 대해서는 반사적으로 주의를 두게 된다. 하이퍼링크와 각종 광고는 그 목적이 보는 사람들의 시선을 끌기 위해 고안된 것들이다. 그런 것들을 완전히 무시할 수 없다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193274" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      결국, 쓸데없는 의사결정, 관계없는 문제 해결, 주의력 분산의 세 가지 콤보가 뇌를 공격하게 되면서 실제 콘텐츠를 보는 집중력이 저하하고 이러한 과정이 반복되면 우리의 뇌도 소위 인터넷을 보는 뇌로 변하게 되는 것이다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.22</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58193275" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      그렇다면 이렇게 말할 수 있을 것이다. 창의적인 사람은 섣불리 결과를 예단하지 않는 사람이다. 어떤 아이디어가 어떻게 반향을 낼지 모르기 때문에 도전하고 또 도전한다. 하지만 실제 성공 확률은 지극히 낮아서 필연적으로 많은 실패를 경험하게 된다. 그래서 창의적인 사람들은 실패를 어려움 없이 받아들이는 성장형 사고방식이 있는 사람들이다. 만약 실패에 자아의 위협을 느끼는 고정형 사고방식을 가졌다면 실패에 대해 두려움에 도전을 포기했을 것이다. 하지만 실패는 삶과 일에 떼려야 뗄 수 없는 일부분이기 때문에 그대로 받아들이고 더 성장하기 위한 발판으로 삼는다.
+
+  결국, 창의적인 사람은 도전도 많이 하고 실패도 많이 하는 사람이며 이런 태도는 누구라도 후천적으로 가질 수 있다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.26</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58519540" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      하지만 린 스타트업은 조금 다르다. 처음부터 세상을 놀라게 할 명품을 만들 생각은 교만으로 치부하고 승산이 있는 새로운 아이디어가 나오면 조금은 어설프지만, 이 새로운 아이디어를 테스트할 수 있는 최소한의 제품을 빠르게 만들어 출시한다. 이런 제품을 MVP(Minimum Viable Product)라고 한다. MVP를 출시하고 이에 대한 고객들의 반응을 파악한 후 이를 분석하여 발 빠르게 제품을 개선한다. 만약에 처음 아이디어를 세울 때 세웠던 가설이 잘못되었다고 판단했다면 미련 없이 방향을 선회한다. 이를 Pivot(방향 전환)이라고 한다. 이런 일련의 시행착오를 거쳐 제품의 완성도를 높인 뒤 검증된 가설을 바탕으로 마케팅 및 판매 전략을 수립하고 본격적인 제품 출시 및 판매를 실행한다. 이것이 바로 린 스타트업이라는 경영 전략이다.
+
+    그렇다면 왜 이런 경영 전략이 주목을 받을까? 아마존 창업자 제프 베조스(Jeff Bezos)는 기존에 수립한 비즈니스 모델이 그대로 진행되는 경우는 거의 없다고 한다. 즉, 이 말은 아무리 초장기 아이디어가 좋고 분명히 성공할 것처럼 보인다고 해도 실제로 제품이 나오면 실제 성공 확률은 높지 않다는 것이다. 애플이 처음부터 아이폰을 만들었던 것이 아니었다. 처음에는 모토로라와 공동으로 락커(Rokr)라는 휴대폰을 만들었다. 하지만 참패했고 이를 교훈 삼아 아이폰이라는 빅히트 상품을 낼 수 있었다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.26</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58519541" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      1994년 카네기멜론대학교의 심리학자인 조지 로웬스타인은 호기심이란 ‘정보 간극’에 대한 반응이라는 이론을 제시했다.207 우리가 이미 알고 있는 것과 알고 싶어 하는 것 사이에 간극이 있을 때 호기심이 생긴다는 것이다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.26</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58519542" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      이 실험에서 우리가 이끌어 낼 수 있는 통찰은 호기심이란 이미 알고 있는 것(단순한 도형)이나 전혀 모르는 것(너무 복잡한 도형)에는 발동되지 않는다는 것이다. 하지만 어느 정도 지식이 있지만 완벽하게 채워지지 않은, 즉, ‘지식’과 ‘지식의 부재’가 적절히 균형을 이루었을 때 호기심은 기지개를 켜기 시작한다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.26</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58519543" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      그렇다면 우리나라 성인의 문해력 수준은 어느 정도일까? OECD 국가 딱 평균에 위치한다. 우리나라 학생이 보는 국제 학업 성취도 평가(PISA)는 세계 최고 수준이지만 어찌 된 건지 성인들의 문해력은 상대적으로 너무 떨어져 보인다. 게다가 나이별 문해력 수준을 보면 나이를 먹을수록 문해력이 떨어지는 것으로 나왔다. 60세 이상이야 예전에 학교를 제대로 다니기 힘들었다고 해도 50세 이전은 왜 이렇게 문해력이 형편없게 나왔을까? 답은 뻔하다. 독서를 하지 않아서다. 더 중요한 것은 우리나라 성인 문해력 평균이 겨우 2등급에 머무른다는 사실에 있다. 문해력 2등급에 대한 설명은 다음과 같다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.26</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58519545" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      토론을 원활하게 하기 위해서는 3등급 이상은 되어야만 하기 때문이다. 우리가 유독 토론에 약한 이유가 토론 문화가 약해서인 것도 있지만 기본적인 문해력이 뒤처지기 때문이기도 하다.
+
+  반면 PIAAC에서 1등을 차지한 일본의 경우 성인 평균은 3.5등급에 이른다. 특히 전체 성인의 70퍼센트 이상이 토론이 가능한 3등급 이상이다. 특히 권재원 박사의 분석 중 눈길을 끌었던 대목은 일본의 경우 문해력이 가장 높은 연령대가 30~40대였고 OECD 평균도 그랬다. 하지만 우리만 나이가 들수록 문해력이 떨어진다. 30~40대가 20대보다 텍스트를 이해하는 능력이 떨어진다는 사실이다. 이러한 결과는 재차 말하지만 우리나라는 학교를 나서자마자 독서를 하지 않기 때문이다. 그런데 그 학교는 대학교가 아니다. 통계를 보면 중학교를 나서자마자 우리는 책과 담을 쌓게 된다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.26</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58519547" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      다독은 계독(系讀)과 남독이 있다. 계독은 한 분야의 계보에 따라 책을 읽는 것을 말하고 남독은 다양한 책을 읽는 것을 말한다. 어떤 식으로 처음 접근하든 상관없긴 하지만 성인이라면 처음에는 계독하기를 추천한다. 
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.09.26</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="58519548" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                  </ul>
+                      </div>
+    </article>
+  </section>
+      </div>
+    </div><hr/>
+    <p class="indent_hidden">본문 끝 <a href="#ridi_books">최상단으로 돌아가기</a></p>
+
+                      <section class="module_notice notice_footer">
+          <article class="notice_wrap">
+            <h2 class="notice_title"><a href="/support/notice">공지사항 <span class="icon-arrow_1_right"></span></a></h2>
+            <ul class="notice_list">
+                              <li class="notice_element js_scrolling_notice_element"><a href="/support/notice/620">[업데이트] iOS 앱 v8.8.0</a></li>
+                              <li class="notice_element js_scrolling_notice_element"><a href="/support/notice/612">[업데이트] PC/Mac 뷰어 v2.3.0</a></li>
+                              <li class="notice_element js_scrolling_notice_element"><a href="/support/notice/608">[업데이트] 안드로이드 앱 v8.7.3</a></li>
+                              <li class="notice_element js_scrolling_notice_element"><a href="/support/notice/590">[업데이트] 페이퍼 (PAPER) v1.6.3</a></li>
+                          </ul>
+          </article>
+        </section><hr>
+            <footer id="books_footer">
+        <div class="footer_wrap">
+          <div class="corp_info">
+            <h2 class="indent_hidden">회사 정보</h2>
+            <ul class="info_contact">
+              <li class="contact_tel"><span class="icon-call_center"></span><span class="indent_hidden">전화번호 : </span><span class="museo_sans">1644-0331</span></li>
+              <li class="list_support"><a href="https://help.ridibooks.com/hc/ko" target="_blank">고객센터</a></li>
+              <li class="list_faq"><a href="https://help.ridibooks.com/hc/ko/categories/115001655168" target="_blank">자주 묻는 질문</a></li>
+              <li class="contact_one"><a href="https://ridihelp.zendesk.com/hc/ko/requests/new" target="_blank">1:1 문의하기</a></li>
+            </ul>
+            <address class="info_address">
+              리디 (주) / 대표 배기식 / 서울시 강남구 역삼동 702-28 어반벤치빌딩 10층 (테헤란로 325)<br/>
+              사업자등록번호 120-87-27435 / 통신판매업신고 제 2009-서울강남 35-02139호<br/>
+            </address>
+            <p class="info_security">
+              개인정보보호책임자 <a class="security_email" href="mailto:security@ridi.com">security@ridi.com</a>
+            </p>
+            <ul class="info_link">
+              <li><a class="link_prov" href="/legal/terms" target="_blank">이용약관</a></li>
+              <li><a class="link_personal" href="/legal/privacy" target="_blank">개인정보처리방침</a></li>
+              <li><a class="link_youth" href="/legal/youth" target="_blank">청소년보호정책</a></li>
+              <li><a class="link_business" href="http://ftc.go.kr/info/bizinfo/communicationList.jsp" target="_blank">사업자 정보 확인</a></li>
+            </ul>
+            <p class="info_copyright">&copy; RIDI Corp.</p>
+          </div>
+          <div class="other_menu">
+            <h2 class="indent_hidden">바로가기</h2>
+            <ul class="other_menu_wrap">
+              <li>
+                <h3>About</h3>
+                <ul class="menu_list">
+                  <li><a href="https://www.ridicorp.com/" target="_blank">회사 소개</a></li>
+                  <li><a href="https://www.ridicorp.com/career/" target="_blank">인재 채용 <span class="icon-new_1 new_icon"></span></a></li>
+                </ul>
+              </li>
+              <li>
+                <h3>서비스 이용</h3>
+                <ul class="menu_list">
+                  <li><a href="/order/checkout/cash" class='js_login_required'>리디캐시 충전</a></li>
+                  <li><a href="/support/app/download">뷰어 다운로드</a></li>
+                  <li><a href="/support/notice">공지사항</a></li>
+                  <li><a href="https://help.ridibooks.com/hc/ko" target="_blank">고객센터</a></li>
+                </ul>
+              </li>
+              <li>
+                <h3>파트너십</h3>
+                <ul class="menu_list">
+                  <li><a href="/partners/">제휴 문의</a></li>
+                  <li><a href="https://cp.ridibooks.com" target="_blank">CP사이트</a></li>
+                </ul>
+              </li>
+              <li>
+                <h3>리디북스 소식</h3>
+                <ul class="menu_list list_news">
+                  <li><a href="/account/modify"><span class="icon_wrap"><span class="icon-mail"></span></span> 뉴스레터</a></li>
+                  <li><a href="https://www.facebook.com/ridibooks" target="_blank"><span class="icon_wrap"><span class="icon-facebook_2"></span></span> 페이스북</a></li>
+                  <li><a href="https://twitter.com/ridibooks" target="_blank"><span class="icon_wrap"><span class="icon-twitter_2"></span></span> 트위터</a></li>
+                  <li><a href="http://blog.naver.com/ridibooks" target="_blank"><span class="icon_wrap"><span class="icon-naver_blog"></span></span> 블로그</a></li>
+                  <li><a href="https://instagram.com/ridibookspaper/" target="_blank"><span class="icon_wrap"><span class="icon-instagram_1"></span></span> 인스타그램</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="footer_badge">
+          <li class="badge_wrapper">
+            <div class="badge_logo logo_first_brand">
+              <a href="http://fba.kcforum.co.kr/" target="_blank">
+                <img src="https://static.ridibooks.com/books/dist/images/cert/first_brand.png" class="badge_img" alt="퍼스트브랜드 대상">
+              </a>
+            </div>
+            <p class="badge_text">
+              <strong class="text_main">퍼스트브랜드 대상</strong>
+              <span class="text_sub">전자책 부문 3년 연속</span>
+            </p>
+          </li>
+          <li class="badge_wrapper">
+            <div class="badge_logo logo_clean_site">
+              <a href="http://www.cleansite.org/introduce/summary.php" target="_blank">
+                <img src="https://static.ridibooks.com/books/dist/images/cert/clean_site.png" class="badge_img" alt="clean site">
+              </a>
+            </div>
+            <p class="badge_text">
+              <strong class="text_main">CLEAN SITE</strong>
+              <span class="text_sub">출판/만화 분야</span>
+            </p>
+          </li>
+        </ul>
+      </footer>
+      </div>
+  <div id="base_popup_and_spinner_wrapper">
+    <div id="full_page_spinner">
+      <div class="spinner_dimmed_bg"></div>
+      <div class="spinner_wrapper">
+        <img class="spinner" src="https://static.ridibooks.com/books/dist/images/spinner/full_page_spinner.gif" alt="spinner">
+      </div>
+    </div>
+        <div class="mobile_view_button_wrapper">
+      <a href="/device/m" class="mobile_view_button rui_button_white_40"><span class="mobile_view_button_icon icon-mobile"></span>모바일 버전</a>
+    </div>
+
+    <div id="login_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box">
+    <button class="popup_box_close_button js_popup_close" type="button">
+      <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+    </button>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+<div id="signup_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box js_signup_popup_box">
+    <div class="popup_header">
+      <div class="header_logo"></div>
+      <button class="popup_box_close_button js_popup_close" type="button">
+        <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+      </button>
+    </div>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+<div id="signup_complete_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box">
+    <button class="popup_box_close_button js_popup_close" type="button">
+      <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+    </button>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+<div id="find_id_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box">
+    <button class="popup_box_close_button js_popup_close" type="button">
+      <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+    </button>
+    <button class="popup_box_back_button js_popup_login" type="button">
+      <span class="return_icon"></span><span class="indent_hidden">로그인페이지로</span>
+    </button>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+<div id="find_password_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box">
+    <button class="popup_box_close_button js_popup_close" type="button">
+      <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+    </button>
+    <button class="popup_box_back_button js_popup_login" type="button">
+      <span class="return_icon"></span><span class="indent_hidden">로그인페이지로</span>
+    </button>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+          <iframe id="iframe_book_download" width="0" height="0" title="내용없음"></iframe>
+      </div>
+  <div id="base_script_wrapper">
+        <!-- Google 리마케팅 태그 코드 -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 971507236;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<div style="display:block;height:0;width:0;overflow:hidden;">
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971507236/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+  </noscript>
+</div>
+<!-- Google Adwords RIDI's own account (Not Echo marketing) -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 852154850;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<div style="display:block;height:0;width:0;overflow:hidden;">
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971507236/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+  </noscript>
+</div>
+<!-- Naver Premium Log Analytics Common Script -->
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+  if(!wcs_add) var wcs_add = {};
+  if(!_nasa) var _nasa={};
+  if(typeof wcs !== 'undefined') {
+    wcs_add["wa"] = "s_116898344f34";
+    wcs.inflow("ridibooks.com");
+    wcs_do(_nasa);
+  }
+</script>
+  </div>
+</body>
+</html>

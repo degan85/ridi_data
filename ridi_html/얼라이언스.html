@@ -1,0 +1,1701 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# books: http://ogp.me/ns/books#">
+      <!--[if lte IE 9]>
+      <script>location.replace('https://static.ridibooks.com/pages/end_support_ie.html');</script>
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta charset="utf-8"/>
+  <meta name="format-detection" content="telephone=no">
+      <meta name="keywords" content="리디북스,리디,ridibooks,ridi,책,전자책,ebook"/>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ridibooks">
+<meta property="fb:app_id" content="208688205808637" />
+<meta property="og:url" content="https://ridibooks.com" />
+<meta property="og:title" content="RIDIBOOKS" />
+<meta property="og:image" content="https://static.ridibooks.com/books/dist/images/ridibooks.jpg" />
+<meta property="og:description" content="500만명이 인정한 최고의 eBook 서비스, 리디북스! 50만권의 eBook, 특별반값 도서, 최신 베스트셀러에서 빌려보는 만화/판무/잡지, 내 문서파일 (PDF/TXT/ePub) 뷰어 기능까지!" />
+<meta name="description" content="500만명이 인정한 최고의 eBook 서비스, 리디북스! 50만권의 eBook, 특별반값 도서, 최신 베스트셀러에서 빌려보는 만화/판무/잡지, 내 문서파일 (PDF/TXT/ePub) 뷰어 기능까지!"/>
+    <meta name="msapplication-TileImage" content="https://static.ridibooks.com/books/dist/favicon/favicon_win8.png"/>
+<meta name="msapplication-TileColor" content="#1f8ee6"/>
+<meta name="theme-color" content="#ffffff" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-57x57.png?150320">
+<link rel="apple-touch-icon" sizes="60x60" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-60x60.png?150320">
+<link rel="apple-touch-icon" sizes="72x72" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-72x72.png?150320">
+<link rel="apple-touch-icon" sizes="76x76" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-76x76.png?150320">
+<link rel="apple-touch-icon" sizes="114x114" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-114x114.png?150320">
+<link rel="apple-touch-icon" sizes="120x120" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-120x120.png?150320">
+<link rel="apple-touch-icon" sizes="144x144" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-144x144.png?150320">
+<link rel="apple-touch-icon" sizes="152x152" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-152x152.png?150320">
+<link rel="apple-touch-icon" sizes="180x180" href="https://static.ridibooks.com/books/dist/favicon/apple-icon-180x180.png?150320">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://static.ridibooks.com/books/dist/favicon/android-icon-192x192.png?150320">
+<link rel="shortcut icon" href="https://static.ridibooks.com/books/dist/favicon/ridibooks.ico">  <title>리디북스</title>
+
+    <link title="리디북스 검색" rel="search" type="application/opensearchdescription+xml" href="https://static.ridibooks.com/books/dist/xml/open_search_description.xml?20171110183258">
+
+        <link rel="stylesheet" href="https://static.ridibooks.com/books/dist/css/common/nanumgothic.css?150324"/>
+    <link rel="stylesheet" href="https://static.ridibooks.com/books/dist/css/page_base.css?20171110183316"/>
+        <link rel="stylesheet" href="https://static.ridibooks.com/books/dist/css/page_reading_note_detail.css?20171110183322"/>
+  
+        <script>
+  var Ridi = Ridi || {};
+  Ridi.globals = {
+    isLoggedIn: true,
+    userId: 'degan85',
+    userEmail: 'degan8535@gmail.com',
+    isPc: true,
+    isTablet: false,
+    isMobile: false,
+    isPaper: false,
+    isRidiApp: false,
+    isNotUseNotificationCenter: false,     apiUrl: 'https://api.ridibooks.com',
+    notificationApiUrl: 'https://d5aft0t1kf.execute-api.ap-northeast-2.amazonaws.com/prod',
+    apiToken: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiJkZWdhbjg1IiwiZXhwIjoxNTEwMzkzNzgzfQ.lEgUizDOh5tJXX6cZT-ejbteW0ta-Nbpw3SAkAilAmM',
+    sslHostLink: 'https://ridibooks.com'
+  };
+</script>
+  <script src="https://static.ridibooks.com/books/dist/vendors.webpack.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/vendors.common.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/vendors.common2.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/vendors.pc.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/rui.min.js?20171110183259"></script>
+  <script src="https://static.ridibooks.com/books/dist/ridi.common.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/ridi.common2.min.js?20171110183333"></script>
+  <script src="https://static.ridibooks.com/books/dist/ridi.pc.min.js?20171110183333"></script>
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://ridibooks.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ridibooks.com/search/?q={q}&amp;referer=sitelinks_searchbox",
+    "query-input": "required name=q"
+  }
+}
+</script>    <script>
+    var BOOK_ID = 703000301;
+    var DETAIL_SCRAP_LIMIT = 20;
+  </script>
+  <script src="https://static.ridibooks.com/books/dist/reading_note_detail.min.js?20171110183333"></script>
+</head>
+
+<body id="ridi_books" class="pc_device">
+  <div id="base_tools_wrapper">
+    <a class="indent_hidden" href="#books_contents">본문 바로가기</a>
+    
+<p id="access_check" style="padding: 20px; text-align: center; border: 1px solid #dfdfdf; background: #fafafa; font-size: 14px; color: #333; line-height: 1.6em;">
+  리디북스 접속이 원활하지 않습니다. 새로 고침(F5)해주세요. <br>
+  계속해서 문제가 발생한다면 리디북스 접속 테스트를 통해 원인을 파악하고 대응 방법을 안내드리겠습니다.<br>
+  <a href="/access-check/" style="display: inline-block; margin-top: 10px; text-decoration: underline; font-weight: bold; color: #0282da;">
+    테스트 페이지로 이동하기
+  </a>
+</p>
+      </div>
+  <div id="base_contents_wrapper">
+        <header id="books_header">
+      <div class="header_top">
+        <div class="top_contents">
+          <div class="top_left">
+            <h1 id="main_logo">
+              <a href="/" class="main_logo_link">
+                <span class="main_logo_icon"></span>
+                <span class="indent_hidden">RIDIBOOKS</span>
+              </a>
+            </h1>
+                                        <div class="search_wrap js_search_wrap">
+          <form id="search_form" class="search_input_box_wrapper" action="  /search">
+    <fieldset class="search_field">
+      <legend class="indent_hidden">리디북스 검색</legend>
+      <input id="book_search_input"
+             class="search_window search_input js_search_input"
+             name="q"
+             type="search"
+             role="search"
+             title="서점 전체 검색어 입력"
+             placeholder="제목, 저자, 출판사 검색"
+             value=""
+             autocorrect="off"
+             autocomplete="off"
+             autocapitalize="off"
+             aria-labelledby="label_search"
+             data-user-keyword=""
+             required />
+      <label for="book_search_input" class="indent_hidden">서점 전체 검색어 입력</label>
+              <span class="icon-search"></span>
+            <button class="btn_reset_search_input js_btn_reset_search_input" type="button">
+        <span class="icon-close_2 delete_icon"></span>
+        <span class="indent_hidden">검색어 삭제</span>
+      </button>
+      <button class="indent_hidden" type="submit">검색</button>
+    </fieldset>
+  </form>
+
+        <div class="search_preview" id="book_search_result"></div>
+        <div class="search_history_wrap js_search_history_wrap">
+    <p class="search_history_title">최근 검색어</p>
+    <ul id="search_history" class="js_search_history">
+      <li class="js_search_history_tmpl">
+        <a class="link js_link"></a>
+        <button type="button" class="btn_del_history js_btn_del_history">
+          <span class="icon-close_2 btn_clear_history_item"></span><span class="indent_hidden">최근 검색어 제거</span>
+        </button>
+      </li>
+    </ul>
+    <button type="button" class="btn_clear_history js_btn_clear_history">최근 검색어 전체 삭제</button>
+  </div>
+
+  </div>
+
+          </div>
+          <div class="top_right">
+            <ul class="right_list_wrapper">
+                              
+
+<script type="text/x-jquery-tmpl" id="gnb_noti_tmpl">
+  <li class="noti_list ${newClass}">
+    <div class="list_table">
+      <div class="list_left">
+        <span class="noti_icon ${iconClass}">
+          <img src="${imageUrl}" alt="리디북스 알림">
+        </span>
+      </div>
+      <div class="list_right">
+        <div class="noti_title">
+          {{html message}}
+        </div>
+        <div class="noti_time" data-created="${createdAt}">
+          <p>${strCreatedAt}</p>
+        </div>
+      </div>
+    </div>
+    <a class="btn_more trackable trackable_lazy" href="${landingUrl}" data-id="${itemId}" data-url="${landingUrl}" data-track-params="${logData}" data-track-type="beacon,ga"><span class="indent_hidden">더보기</span></a>
+  </li>
+</script>
+
+
+                <li class="top_right_item menu_noti pc_hover js_track_trigger_mouseenter">
+                  <a href="/notification" id="gnb_noti_link">
+                    <span class="indent_hidden">리디 알림센터</span><span class="icon-bell_1"></span>
+                    <span class="indent_hidden">, 새로운 알림 </span><span class="noti_num museo_sans hidden"></span><span class="indent_hidden">개</span>
+                  </a>
+                  <div id="notiMenuPopup" class="GNB_popup">
+                    <div class="arrow_wrapper">
+                      <span class="icon-arrow_1_up arrow_up_black"></span>
+                      <span class="icon-arrow_1_up arrow_up_steelblue"></span>
+                    </div>
+                    <h3 class="indent_hidden">알림센터 팝업</h3>
+                    <div class="popup_contents">
+                      <p class="popup_header">
+                        <span class="popup_header_title">알림센터</span>
+                        <span class="btn_link">
+                          <a href="/notification/">전체보기 <span class="icon-arrow_9_right"></span></a>
+                        </span>
+                      </p>
+                      <ul class="noti_list_wrapper">
+                      </ul>
+                      <p class="noti_empty_text indent_hidden">새로운 알림이 없습니다.</p>
+                      <div class="spin"></div>
+                      <div class="more_btn_wrapper">
+                        <a class="more_btn" href="/notification/"><span class="icon-dotdotdot"></span><span class="indent_hidden">더보기</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="top_right_item menu_user pc_hover">
+                  <a href="/account/myridi" id="gnb_myridi_link">마이리디</a>
+                  <div id="divMyMenuLayer" class="GNB_popup">
+                    <div class="arrow_wrapper">
+                      <span class="icon-arrow_1_up arrow_up_black"></span>
+                      <span class="icon-arrow_1_up arrow_up_steelblue"></span>
+                    </div>
+                    <div class="popup_contents">
+                      <h3 class="indent_hidden">마이리디 팝업</h3>
+                      <div class="header_wrapper">
+                        <p class="id_wrapper">
+                          <a class="myridi_link" href="/account/myridi">마이리디 홈 <span class="icon-arrow_9_right icon"></span></a>
+                        </p>
+                      </div>
+                      <div class="spin"></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="top_right_item menu_cart pc_hover">
+                  <a href="/cart" id="gnb_cart_link" class="menu_cart_link">카트 <span class="cart_num museo_sans">11</span></a>
+                  <div id="cartMenuPopup" class="GNB_popup">
+                    <div class="arrow_wrapper">
+                      <span class="icon-arrow_1_up arrow_up_black"></span>
+                      <span class="icon-arrow_1_up arrow_up_steelblue"></span>
+                    </div>
+                    <h3 class="indent_hidden">카트 팝업</h3>
+                    <div class="popup_contents">
+                      <p class="book_count">
+                        <span class="indent_hidden">카트에 담긴 도서:</span>
+                        <span class="count_num"></span>
+                        <span class="btn_link">
+                          <a href="/cart/">전체보기 <span class="icon-arrow_9_right"></span></a>
+                        </span>
+                      </p>
+                      <div class="spin"></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="top_right_item menu_wish pc_hover">
+                  <a href="/wishlist" id="gnb_wish_link" class="menu_wish_link">위시리스트</a>
+                  <div id="wishMenuPopup" class="GNB_popup">
+                    <div class="arrow_wrapper">
+                      <span class="icon-arrow_1_up arrow_up_black"></span>
+                      <span class="icon-arrow_1_up arrow_up_steelblue"></span>
+                    </div>
+                    <h3 class="indent_hidden">위시리스트 팝업</h3>
+                    <div class="popup_contents">
+                      <p class="book_count">
+                        <span class="indent_hidden">위시리스트에 담긴 도서:</span>
+                        <span class="count_num"></span>
+                        <span class="btn_link">
+                          <a href="/wishlist/">전체보기 <span class="icon-arrow_9_right"></span></a>
+                        </span>
+                      </p>
+                      <div class="spin"></div>
+                    </div>
+                  </div>
+                </li>
+                          </ul>
+          </div>
+        </div><hr class="clear_both">
+      </div>
+      <div class="header_middle">
+        <div class="middle_contents">
+          <nav class="middle_left">
+            <ul class="middle_left_list">
+              <li class="middle_left_item list_all_menu">
+                <button id="show_all_menu_btn" type="button" class="all_menu_button">
+                  <span class="middle_left_icon"></span>전체분야
+                </button>
+              </li>
+              <li class="middle_left_item list_general">
+                <a
+                  class="middle_left_link"
+                  href="/?genre=general">
+                  <span class="middle_left_icon"></span>일반
+                </a>
+              </li>
+              <li class="middle_left_item list_romance">
+                <a
+                  class="middle_left_link"
+                  href="/?genre=romance">
+                  <span class="middle_left_icon"></span>로맨스
+                </a>
+              </li>
+              <li class="middle_left_item list_fantasy">
+                <a
+                  class="middle_left_link"
+                  href="/?genre=fantasy">
+                  <span class="middle_left_icon"></span>판타지
+                </a>
+              </li>
+              <li class="middle_left_item list_comic">
+                <a
+                  class="middle_left_link"
+                  href="/?genre=comic">
+                  <span class="middle_left_icon"></span>만화
+                </a>
+              </li>
+                              <li class="middle_left_item list_bl">
+                  <a
+                    class="middle_left_link"
+                    href="/?genre=bl">
+                    <span class="middle_left_icon"></span>BL
+                  </a>
+                </li>
+                          </ul>
+          </nav>
+                      <ul class="middle_right">
+              <li class="list_element">
+                <a href="https://paper.ridibooks.com/Intro?utm_source=Ridibooks_PC&utm_medium=gnb_catchPhrase&utm_content=&utm_campaign=paperShop" target="_blank"
+                   class="middle_right_link">
+                  <span class="middle_right_icon icon-paper_1"></span> <span class="middle_right_icon icon-logo_paper_bold"></span>
+                  <span class="indent_hidden">PAPER</span>
+                </a>
+              </li>
+              <li class="list_element">
+                <a class="middle_right_link js_login_required" href="/order/checkout/cash">
+                  <span class="middle_right_icon icon-coin_2"></span> 리디캐시 충전
+                                  </a>
+              </li>
+            </ul>
+                    <div id="all_menu">
+            <h2 class="indent_hidden">리디북스 전체분야</h2>
+            <div class="all_menu_wrapper">
+              <button id="hide_all_menu_btn" type="button">
+                <span class="hide_all_menu_icon icon-menu_2"></span>전체분야<span class="indent_hidden"> 닫기</span>
+              </button>
+              
+  
+<div class="menu_column menu_general">
+  <div class="column_box">
+    <div class="list_wrap list_normal">
+                        <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_0 active">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/100">
+                소설
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/100">소설 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/101">한국소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/102">영미소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/103">일본소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/117">중국소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/116">북유럽소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/114">독일소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/115">프랑스소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/104">기타국가소설</a></li>
+                                                  <div class="category_separate"><hr></div>
+                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/107">추리/미스터리/스릴러</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/123">SF소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/124">국내판타지소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/125">해외판타지소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/118">국내역사소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/119">해외역사소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/120">대체역사소설</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/121">동양고전문학</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/122">서양고전문학</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_1 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/200">
+                경영/경제
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/200">경영/경제 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/210">경영일반</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/220">경제일반</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/230">마케팅/세일즈</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/240">재테크/금융/부동산</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/250">CEO/리더십</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_2 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/400">
+                인문/사회/역사
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/400">인문/사회/역사 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/410">인문</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/420">정치/사회</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/430">예술/문화</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/440">역사</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_3 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/300">
+                자기계발
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/300">자기계발 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/310">성공/삶의자세</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/320">기획/창의/리더십</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/330">설득/화술/협상</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/340">취업/창업</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/350">여성</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/360">인간관계</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_4 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/110">
+                에세이/시
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/110">에세이/시 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/111">에세이</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/112">시</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_5 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/800">
+                여행
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/800">여행 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/810">국내여행</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/820">해외여행</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_6 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/700">
+                종교
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/700">종교 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/710">종교일반</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/720">가톨릭</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/730">기독교(개신교)</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/740">불교</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/750">기타</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_7 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1000">
+                외국어
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1000">외국어 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1010">비즈니스영어</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1020">일반영어</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1030">제2외국어</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1040">어학시험</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_8 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1100">
+                과학
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1100">과학 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1110">과학일반</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1120">수학</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1130">자연과학</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1140">응용과학</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_9 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1900">
+                진로/교육/교재
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1900">진로/교육/교재 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1901">공부법</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1902">특목고/자사고</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1903">대입 수시</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1904">대입 논술</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1905">대입 합격수기</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1906">진로 탐색</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1907">유학/MBA</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1908">교재/수험서</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_10 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/2200">
+                컴퓨터/IT
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/2200">컴퓨터/IT 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2210">IT 비즈니스</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2220">개발/프로그래밍</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2230">컴퓨터/앱 활용</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2240">IT자격증</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2250">IT 해외원서</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_11 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/500">
+                건강/다이어트
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/500">건강/다이어트 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/510">다이어트/운동/스포츠</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/520">스타일/뷰티</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/530">건강</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_12 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/600">
+                가정/생활
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/600">가정/생활 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/610">결혼/임신/출산</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/620">육아/자녀교육</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/630">취미/요리/기타</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_13 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1300">
+                어린이/청소년
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1300">어린이/청소년 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1310">유아</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1320">어린이</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/1330">청소년</a></li>
+                                                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_14 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/1400">
+                해외도서
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/1400">해외도서 전체</a></li>
+                          </ul>
+          </div>
+                                <div class="pc_hover js_general_menu_wrapper general_menu_wrapper general_category_15 ">
+            <h3>
+              <a class="js_general_menu_title general_menu_title" href="/category/2000">
+                잡지
+                <span class="icon-arrow_9_right"></span>
+                <span class="icon-arrow_1_left"></span>
+              </a>
+            </h3>
+            <ul class='sub_category_wrapper'>
+              <li class="sub_category_list"><a class="sub_category_link" href="/category/2000">잡지 전체</a></li>
+                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2001">경영/재테크</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2002">문학/교양</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2003">여성/패션/뷰티</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2004">디자인/예술</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2005">건강/스포츠</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2006">취미/여행/요리</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2007">과학/IT</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2008">종교</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2009">만화</a></li>
+                                                              <li class="sub_category_list"><a class="sub_category_link" href="/category/2010">성인(19+)</a></li>
+                                                          </ul>
+          </div>
+                                                                                                                                  </div>
+  </div>
+</div>
+
+<div class="menu_column menu_general_sub">
+  <div class="column_box">
+  </div>
+</div>
+
+<div class="menu_column menu_etc">
+  <div class="column_box">
+        <h3><a class="column_title title_comic" href="/category/1700">로맨스 단행본 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1701">현대물</a></li>
+                      <li><a class="sub_category_link" href="/category/1702">역사/시대물</a></li>
+                      <li><a class="sub_category_link" href="/category/1703">판타지물</a></li>
+                      <li><a class="sub_category_link" href="/category/1704">할리퀸소설</a></li>
+                      <li><a class="sub_category_link" href="/category/1706">19+</a></li>
+                      <li><a class="sub_category_link" href="/category/1708">TL소설</a></li>
+                      <li><a class="sub_category_link" href="/category/1709">섹슈얼 로맨스</a></li>
+                      <li><a class="sub_category_link" href="/category/1705">하이틴</a></li>
+      </ul>
+
+        <h3><a class="column_title title_comic" href="/category/1650">로맨스 연재 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1651">현대물</a></li>
+                      <li><a class="sub_category_link" href="/category/1652">역사/시대물</a></li>
+                      <li><a class="sub_category_link" href="/category/1653">판타지물</a></li>
+      </ul>
+
+  </div>
+</div>
+
+<div class="menu_column menu_etc">
+  <div class="column_box">
+        <h3><a class="column_title title_comic" href="/category/1710">판타지 단행본 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1711">정통판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1712">퓨전판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1713">현대판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1714">게임판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1715">대체역사물</a></li>
+                      <li><a class="sub_category_link" href="/category/1716">스포츠물</a></li>
+                        <div class="category_separate"></div>
+            <li><a class="sub_category_link" href="/category/1721">신무협</a></li>
+                      <li><a class="sub_category_link" href="/category/1722">전통무협</a></li>
+      </ul>
+
+        <h3><a class="column_title title_comic" href="/category/1750">판타지 연재 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1751">정통판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1752">퓨전판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1753">현대판타지</a></li>
+                      <li><a class="sub_category_link" href="/category/1754">무협소설</a></li>
+      </ul>
+
+
+    <div class="flatrate_banner_wrapper">
+      <a class="flatrate_banner_link" href="/category/subcategory/1710?flatrate=y&order=selling">
+        <strong class="flatrate_genre">판타지</strong> <br>자유이용권 도서
+        <span class="icon_wrapper"><span class="icon-arrow_9_right"></span></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="menu_column menu_etc">
+  <div class="column_box">
+        <h3><a class="column_title title_comic" href="/category/1500">만화 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/1521">국내순정</a></li>
+                      <li><a class="sub_category_link" href="/category/1522">해외순정</a></li>
+                      <li><a class="sub_category_link" href="/category/1519">드라마</a></li>
+                      <li><a class="sub_category_link" href="/category/1535">성인</a></li>
+                      <li><a class="sub_category_link" href="/category/1551">할리퀸</a></li>
+                      <li><a class="sub_category_link" href="/category/1513">무협</a></li>
+                      <li><a class="sub_category_link" href="/category/1517">학원</a></li>
+                      <li><a class="sub_category_link" href="/category/1515">액션</a></li>
+                      <li><a class="sub_category_link" href="/category/1527">판타지/SF</a></li>
+                      <li><a class="sub_category_link" href="/category/1525">스포츠</a></li>
+                      <li><a class="sub_category_link" href="/category/1523">코믹</a></li>
+                      <li><a class="sub_category_link" href="/category/1531">공포/추리</a></li>
+                      <li><a class="sub_category_link" href="/category/1509">만화잡지</a></li>
+      </ul>
+
+
+    <div class="flatrate_banner_wrapper">
+      <a class="flatrate_banner_link" href="/category/subcategory/1500?flatrate=y&order=selling">
+        <strong class="flatrate_genre">만화</strong> <br>자유이용권 도서
+        <span class="icon_wrapper"><span class="icon-arrow_9_right"></span></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="menu_column menu_etc">
+  <div class="column_box">
+              <h3><a class="column_title title_comic" href="/category/4000">BL 단행본 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/4002">국내소설</a></li>
+                      <li><a class="sub_category_link" href="/category/4003">해외소설</a></li>
+                      <li><a class="sub_category_link" href="/category/4001">국내만화</a></li>
+                      <li><a class="sub_category_link" href="/category/4004">해외만화</a></li>
+      </ul>
+
+          <h3><a class="column_title title_comic" href="/category/4050">BL 연재 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/4051">소설</a></li>
+                      <li><a class="sub_category_link" href="/category/4055">만화</a></li>
+      </ul>
+
+            <h3><a class="column_title title_comic" href="/category/3000">라이트노벨 <span class="icon-arrow_9_right"></span></a></h3>
+  <ul>
+                      <li><a class="sub_category_link" href="/category/3001">남성향 라노벨</a></li>
+                      <li><a class="sub_category_link" href="/category/3003">여성향 라노벨</a></li>
+                      <li><a class="sub_category_link" href="/category/3002">TL</a></li>
+      </ul>
+
+  </div>
+</div>
+
+            </div><hr class="clear_both">
+          </div>
+        </div><hr class="clear_both">
+      </div>
+                </header>
+
+        <div id="books_contents">
+      <div id="contents_wrap">
+                  <div id="ridi_left_menu" class="myridi_left_menu">
+  <h3 class="menu_title">마이리디</h3>
+  <nav class="menu_wrapper">
+    <div class="menu_section">
+      <a class="section_title myridi_home_link" href="/account/myridi">
+        <span class="icon-home_1 myridi_left_icon"></span>마이리디 홈
+      </a>
+    </div>
+    <div class="menu_section">
+      <h4 class="section_title"><span class="icon-book_1 myridi_left_icon"></span>책</h4>
+      <ul class="section_list">
+        <li class="section_list_element"><a class="section_link" href="/library/">구매 목록</a></li>
+        <li class="section_list_element"><a class="section_link" href="/notification/">알림센터</a></li>
+        <li class="section_list_element"><a class="section_link" href="/notification/new-release/author">신간알림</a></li>
+        <li class="section_list_element"><a class="section_link" href="/library/recents">최근 본 책</a></li>
+        <li class="section_list_element"><a class="section_link active" href="/reading-note/timeline">독서노트</a></li>
+      </ul>
+    </div>
+    <div class="menu_section">
+      <h4 class="section_title"><span class="icon-payment_2 myridi_left_icon"></span>구매 / 혜택</h4>
+      <ul class="section_list">
+        <li class="section_list_element"><a class="section_link" href="/order/history">결제 내역</a></li>
+        <li class="section_list_element"><a class="section_link" href="/order/checkout/cash">리디캐시</a></li>
+        <li class="section_list_element"><a class="section_link" href="/order/history_point">리디포인트</a></li>
+        <li class="section_list_element"><a class="section_link" href="/coupon/">쿠폰</a></li>
+        <li class="section_list_element"><a class="section_link" href="/flatrate/manage">이용권 관리</a></li>
+      </ul>
+    </div>
+    <div class="menu_section">
+      <h4 class="section_title"><span class="icon-user_1 myridi_left_icon"></span>개인</h4>
+      <ul class="section_list">
+        <li class="section_list_element"><a class="section_link" href="https://ridihelp.zendesk.com/hc/ko/requests/new" target="_blank">1:1 문의</a></li>
+        <li class="section_list_element"><a class="section_link" href="/account/devices">내 기기 관리</a></li>
+        <li class="section_list_element"><a class="section_link" href="/review/">내 리뷰 관리</a></li>
+        <li class="section_list_element"><a class="section_link" href="/account/modify">정보변경</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+                        <section id="page_reading_note_detail">
+    <h2 class="module_pagetitle">
+      <a class="pagetitle_text title_link js_reading_note_title_link"><span class="icon-arrow_8_left"></span> 독서노트</a>
+    </h2>
+    <article>
+      <div class="detail_header">
+                <div class="note_book_title_wrapper">
+          <div class="table_cell_wrapper">
+            <span class="icon-title_deco_right"></span>
+            <h3 class="title"><a class="title_link" href="/v2/Detail?id=703000301">얼라이언스</a></h3>
+            <p class="author">
+                            <a class="author_detail_link" href="/author/14884">리드 호프먼</a>,          <a class="author_detail_link" href="/author/87037">벤 카스노카</a>              외 <span class="js_scroll_to_author_section_button scroll_to_author_section_button">1명</span>
+       저            </p>
+          </div>
+        </div>
+        <div class="book_macro_110">
+                                      
+    
+    <div class="book_thumbnail_wrapper" data-book_id_for_tracking="703000301">
+    <div class="book_thumbnail">
+            <div class="thumbnail_image">
+                  <img class="thumbnail" src="//misc.ridibooks.com/cover/703000301/large" alt="얼라이언스" data-original-cover="//misc.ridibooks.com/cover/703000301/xxlarge" />
+                <span class="border"></span>
+      </div>
+
+      
+      
+                    
+      
+              <a class="thumbnail_btn " href="/v2/Detail?id=703000301" data-track-params="" data-track-type="">
+          <span class="indent_hidden">상세페이지 바로가기</span>
+        </a>
+      
+      
+      
+      
+    </div>
+  </div>
+
+        </div>
+      </div>
+      <div class="detail_body">
+        <div class="select_wrapper">
+          <div class="rui_select_2 js_select_wrapper">
+            <input type="hidden" class="js_selected_value" value="total">
+            <button type="button" class="select_button js_select_button">
+              <span class="js_selected_text selected_text">
+                                  <span class="icon-highlighter_1"></span>
+                 전체 <span class="num">32</span>
+              </span>
+              <span class="arrow_icon"></span>
+            </button>
+            <ul class="options js_select_options">
+                                                <li>
+                    <button type="button" class="option js_select_option selected" value="total" data-count="32">
+                                              <span class="icon-highlighter_1"></span>
+                       전체 <span class="num">32</span>
+                      <span class="check_icon"></span>
+                    </button>
+                  </li>
+                                                                                              <li>
+                    <button type="button" class="option js_select_option" value="yellow" data-count="32">
+                                              <span class="highlighter_color color_highlighter_yellow"></span>
+                       노랑 <span class="num">32</span>
+                      <span class="check_icon"></span>
+                    </button>
+                  </li>
+                                                                                                                                                                                                </ul>
+          </div>
+        </div>
+        <ul class="note_list_wrapper js_reading_note_list_wrapper">
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      동맹 관계 고용 모델에서 고용주와 직원은 서로 상대에게 자신이 어떤 가치를 더할 수 있는지 그 이해관계를 토대로 관계를 구축한다. 고용주는 직원에게 이렇게 얘기할 수 있어야 한다. “우리 회사의 가치를 높일 수 있도록 도와주시오. 그러면 당신의 가치를 높일 수 있도록 우리가 돕겠소.” 세계적 컨설팅 회사인 베인앤드컴퍼니Bain &amp; Company(이하 베인)의 최고인재책임자 러스 헤게이Russ Hagey는 직원과 컨설턴트에게 이렇게 말한다. “(노동 시장 전반에서) 여러분이 한층 더 시장성 있는 인재로 성장하도록 만들겠습니다.”
+
+  직원은 사장에게 이렇게 얘기할 수 있어야 한다. “이 회사에서 제가 성장하며 발전할 수 있도록 도와준다면 저도 이 회사가 성장하고 사업이 번창하도록 돕겠습니다.” 직원은 기업의 성공을 위해 투자하고, 기업은 직원의 시장 가치를 높이기 위해 투자한다. 일한 시간만큼 돈을 지불하는 단순한 금전 관계가 아니라 상호 이득이 되는 동맹 관계를 맺을 때 고용주와 직원은 유대감을 쌓고 미래에 더 큰 보상을 얻고자 위험을 감수할 수 있다.
+
+  
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.29</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="46943537" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      실리콘밸리 업체들의 성공 뒤에는 기업가정신으로 무장한 인재들이 속한 팀이 있으며 이런 팀이 가능한 것은 동맹 협약을 기반으로 직원을 채용하고, 관리하고, 유지하기 때문이다.
+
+  기업가정신을 품은 인재란 이베이eBay의 최고경영자 존 도나호John Donahoe에 따르면 창업 마인드를 지닌 사람이다. 그는 이렇게 설명한다. “창업 마인드를 지닌 사람은 변화를 주도하고, 사람들에게 동기를 부여하고, 제 할 일을 완수한다.”
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.29</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="46943538" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      기업가다운 사고와 행동력은 오늘날 기업들이 직원에게 요구하는 가장 중요한 역량이다. 그리고 이 역량은 경쟁이 치열해질수록 더욱 중요해질 전망이다. 혁신 기업으로 꼽히는 픽사Pixar와 아마존Amazon에서 기업가정신으로 무장한 소수의 인재들은 실로 엄청난 영향력을 발휘했다.
+
+  
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.29</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="46943539" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      2003년 웹사이트 개발팀 관리자인 벤저민 블랙Benjamin Black은 아마존닷컴이 보유한 기반 시설을 이용해 가상 서버를 판매하는 새로운 사업안을 제시했다.10 그는 효율적인 온라인 판매 업체로서 보유한 아마존의 전문성과 컴퓨팅 능력을 시장에서 판매할 수 있다는 사실을 깨달았다. 블랙과 그의 상사인 크리스 핑크암Chris Pinkham은 이러한 사업 구상을 베저스에게 설명했다. 여러 차례 논의를 거듭해 방향성을 구체화한 뒤 베저스는 향후 아마존 웹서비스로 탄생하게 될 프로젝트 책임자에 핑크암을 앉혔다. 기존의 온라인 판매 사업과 전혀 관련이 없어 보이는 사업에 굳이 위험하게 뛰어들 필요가 있는지 아마존 이사회에서 의문을 제기할 때 베저스는 사업의 정당성을 내세우며 이를 관철시켰다. 아마존 웹서비스는 2006년에 출시되었으며 2013년도 총수익 기준으로 38억 달러를 기여한 것으로 추산된다.11
+
+  디즈니에서 일했던 래시터의 상사들과 달리, 베저스는 자사의 직원들이 기업가정신을 발휘해 새로운 아이디어를 제시하는 것을 반겼다. 뿐만 아니라 월 스트리트의 주주들과 자사의 이사회조차 회사의 핵심 산업과 무관하다고 여겼던 아이디어인데도 적극적으로 지지했다. 아마존 웹서비스야말로 최고경영자나 주주가 그들의 직원들에게 기대할 만한 가치 창출이 어떤 것인지 극명히 보여주는 예다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.29</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="46943540" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      회사 직원들이 수십 억 달러 가치의 사업 아이디어를 제시하기를 원하는가? 그러려면 창업 마인드를 지닌 전문 인력이 매력적으로 느낄 만한 일터를 조성하고, 그들의 기업가적 본능을 회사를 위해 활용할 수 있도록 환경을 마련해야 한다. 재정 관리 소프트웨어 업계의 선두 기업인 인튜이트Intuit 최고경영자 브래드 스미스Brad Smith는 이렇게 말한다. “리더가 할 일은 사람들에게 위대함을 불어넣는 것이 아니라 이미 그들 안에 존재하는 위대함을 알아보는 것이고, 그 위대함이 발현되고 성장할 수 있는 환경을 조성하는 것이다.”
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.29</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="46944190" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      복무 기간이라는 용어는 기업과 군부대에 공통으로 적용되는 핵심 고용 개념을 지닌다. 그것은 군인도 직원도 한정된 기간 내에 특정 임무를 영예롭게 완수하는 목표에 집중해야 한다는 것이다.
+
+  노사 동맹 관계에서는 복무 협약을 맺고 고용주와 직원이 특정한 사명에 헌신한다. 말하자면 평생직장 제도와 자유계약선수 제도가 지닌 장점을 결합했다고 볼 수 있다. 동맹 관계 모델은 평생직장 제도와 마찬가지로 고용주와 직원이 상호 신뢰하고 투자할 수 있는 기반을 마련한다. 또 복무 내용과 기간을 협의함으로써 자유계약선수 제도와 마찬가지로 급변하는 세계에 적응할 수 있는 유연성을 확보한다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.30</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="46983643" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      매력적인 조건의 복무 기간을 명시한다는 것은 직원들이 개인 브랜드를 개발할 수 있는 방법을 구체적으로 제시한다는 뜻이다. 즉 그 회사에서 일하는 동안이나 이직한 후에도 특정한 임무를 수행하며 전문 지식과 기술을 흡수하고 새로운 비즈니스 네트워크를 구축하도록 돕는다는 얘기다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068857" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      갬슨과 스콧의 인재 관리 전략은 복무 협약의 역설적인 특징을 보여준다. 직원이 회사를 떠날 수 있다는 사실을 공공연히 인정하는 것이야말로 오히려 신뢰를 구축하는 최선의 방법이고, 이 신뢰를 기반으로 유대 관계를 쌓을 때 뛰어난 인재를 지킬 수 있다는 것이다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068858" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      순환 복무는 주로 신입 사원을 대상으로 일정 기간 진행되는 업무다. 예를 들어 투자 은행과 경영 컨설턴트 회사는 2~4년 정도 복무 기간을 정해 평직원 프로그램을 진행한다. 모든 직원은 이 기본 프로그램을 이수한다. 복무 기간은 정해져 있고 일회성이다. 흔히 말하는 ‘진입 차선’으로 대학을 갓 졸업한 신입 직원들이나 다른 회사에서 일하다가 들어온 경력 직원을 자사의 고유한 업무 환경에 적응하도록 교육하는 과정이다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068859" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      순환 복무와 달리 전환 복무는 직원 개인의 필요에 따라 조건을 조정한다. 복무 기간을 정할 때도 일괄적으로 기간을 고정하기보다는 특정 임무를 완수하는 데 초점을 맞춘다. 고용주와 직원이 일대일로 협상을 벌여 복무 조건을 결정한다. 그런데 인적 자원을 관리하며 오랜 시간을 보낸 관리자도 부하 직원과 솔직하게 터놓고 각자 기대치를 명시하는 데 익숙지 않거나 체계가 빈약한 경우가 많다. 복무 협약 제도를 적용하면 애매하게 둘러말하지 않고 체계적이고 명시적으로 협상을 진행할 수 있다.
+
+  전환 복무는 무엇보다도 회사를 변혁하고 해당 직원의 경력을 전환할 기회를 제공하는 데 그 핵심이 있다. 전환 복무 기간의 업무 내용은 해당 직원의 이력서를 한층 돋보이게 할 수 있어
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068861" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      “금융 서비스업에 종사하는 사람들은 자신의 경력이 정체되어 있다고 느끼기 쉽다. 사람들은 흔히 수직적으로 진급하는 것만을 경력 발전으로 여기지만 수평적으로 이동하는 것 역시 승진 못지않은 가치가 있다. 우리는 직원들이 다양하게 기술을 익혀 자신을 개발하고 회사에 기여할 수 있기를 바란다.”
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068862" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      장기 복무는 고용주와 직원 사이에 끈끈한 연합 전선이 구축되었음을 증명한다. (연합 전선에 관해서는 3장에서 자세히 다룰 것이다.) 만약 해당 직원이 그 기업에 남아 끝까지 일하기로 결정하고 기업 역시 그 사람이 은퇴할 때까지 남아주기를 바란다면, 그 사람은 장기 복무에 들어간다. 그 회사는 이제 해당 직원의 경력은 물론 삶의 본거지가 되고 해당 직원은 그 회사의 중추 역할을 담당한다. 해당 직원은 기업이 추구하는 사명을 평생의 업으로 삼고 기업 역시 그 사람을 평생의 동반자로 여긴다. 장기 복무는 이 같은 가능성을 인식하고 고려해 마련한 제도다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068863" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      장기 복무는 상호 간의 깊은 신뢰와 유대가 바탕이 되어야 하기 때문에 신입 사원이 그런 협약을 맺는 경우는 무척 드물다. 아무래도 신입 사원은 순환 복무나 전환 복무부터 시작하고, 경력직 사원은 전환 복무부터 시작하기 마련이다. 전환 복무를 거쳐 장기 복무로 이행한 직원들은 회사가 추구하는 장기적 목표를 달성하면서 주인의식을 형성하게 된다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068864" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      순환·전환·장기 복무 기간의 최적 비율은 해당 기업이 처한 시장 조건에 따라 달라진다. 스타트업을 비롯한 실리콘밸리 기업들은 전환 복무 직원(대략 80%)에게 주로 의존하고, 장기 복무와 순환 복무를 하는 직원들은 적은 편이다. 이 같은 고용 형태 덕분에 시장 변화에 기민하게 대처하며 높은 실적을 올리는 것이 가능하다. 반면 시장이 안정적이고 독과점과 비슷한 환경에 있는 제조업체들은 순환 복무(반복적인 저부가가치 노동)와 장기 복무(회사와 오래 함께한 이들의 자긍심과 주인의식을 활용하기 위해)에 주로 의존한다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068865" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      여기서 핵심은 노사가 특정한 시간대와 영역에서 연합 전선을 구축하는 데 있다.
+
+  상사가 부하 직원과 연합 전선을 구축하려면 직원이 세운 진로 목표 및 가치 가운데 회사 목표 및 가치와 공통되는 부분을 찾아낼 줄 알아야 한다
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068867" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      당신이 다니는 회사나 소속 부서에 사명 선언문이 있는지, 또 그 사명을 고용주와 관리자들이 분명하게 표현할 수 있는지가 핵심이다. 그래서 직원들이 자신이 품고 있는 개인적 가치와 해당 기업의 가치를 비교할 수 있어야 한다. 고위급 임원이 아니라도 자신이 소속한 팀이나 사업부를 위해 핵심 가치와 포부를 수립할 수가 있다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068868" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      상호 간에 가치와 포부를 분명히 밝힌 후에는 직원, 관리자, 고용주가 함께 공동의 가치를 위해 긴밀하게 연대해야 한다. 이는 상명하달 식의 작업이 아니라 동등한 자격으로 함께하는 협업이다. 회사의 이익뿐 아니라 직원들의 이익도 동등하게 고려해야 한다. 다행히 이런 작업은 노사가 장기적인 관계를 구축하는 데 실제로 효과가 있다. 존 도나호는 한 직원의 포부를 확인한 뒤에 이렇게 힘주어 말했다. “이제 당신이 이베이에서 어떻게 시간을 투자해야 그러한 포부를 실현시킬 수 있을지 함께 찾아봅시다.”
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47068870" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      한은 대학을 나와 진로를 고민하면서 시어도어 루스벨트Theodore Roosevelt의 명언에서 자극을 받았다. “인생이 주는 최고의 상은 단언컨대 가치 있는 일을 하며 땀을 흘릴 수 있는 기회다.”5
+
+  루스벨트의 말을 가슴에 새긴 한은 세상에 좋은 영향력을 가능한 한 폭넓게 미칠 수 있는 길을 찾았다
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47118522" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      복무 목표를 성공적으로 달성하면 기업은 질적인 차원에서나 양적인 차원에서, 가령 신상품 출시라든가 매출액 증가 또는 업계 전문가들이 평가한 특정 시장에서의 경쟁 우위 등의 가시적 성과를 얻어야 한다.
+
+  일례로 링크트인의 관리자들은 이렇게 자문한다. “이 직원을 채용하면 그는 우리 기업을 어떻게 변혁할 것인가?”
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47118524" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                        <li class="note_list js_note_list">
+    <span class="highlighter_color color_highlighter_yellow js_highlighter_color"></span>
+    <h4 class="indent_hidden">형광펜</h4>
+    <p class="note_highlighter">
+      복무 목표를 성공적으로 달성하면 회사뿐 아니라 직원도 눈에 보이는 성과를 얻어야 한다. 새로운 지식 및 기술을 함양하고, 여러 부서와 다양한 기술을 접하며 경영 능력을 습득해 자신의 경력을 개발하고, 돋보이는 사업 성과를 올림으로써 업계에서 자신만의 브랜드를 탄탄하게 구축하는 것 등이 이에 해당한다. 일반적으로 말하는 승진만이 성공적인 결과는 아닌 것이다.
+    </p>
+        <div class="other_info_wrapper">
+      <div class="date_wrapper">
+        <p class="note_date">2017.05.31</p>
+      </div>
+      <div class="buttons_wrapper">
+        <button type="button" class="button_set_toggle js_button_set_toggle"><span class="icon-dotdotdot"></span></button>
+        
+        <div class="button_set_wrapper js_button_set">
+          <ul class="button_list_wrapper">
+            <li class="button_list">
+                              <div class="set_wrapper_arrow">
+                  <span class="icon-arrow_1_up arrow_border"></span>
+                  <span class="icon-arrow_1_up arrow_bg"></span>
+                </div>
+                            <button class="remove_button js_remove_note" data-id="47118527" data-color-type="yellow" data-memo=""><span class="icon-trash_2"></span> 삭제</button>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+    <div class="spinner_wrapper"><div class="spinner_bg"></div></div>
+    <div class="spin"></div>
+  </li>
+
+                  </ul>
+                          <div class="view_more_button_wrapper">
+            <button type="button" class="view_more js_view_more_btn" data-type="total" data-total-count="32">
+              <span class="more_num js_more_num">12</span>개
+              더보기
+              <span class="icon-arrow_1_down"></span>
+            </button>
+          </div>
+              </div>
+    </article>
+  </section>
+      </div>
+    </div><hr/>
+    <p class="indent_hidden">본문 끝 <a href="#ridi_books">최상단으로 돌아가기</a></p>
+
+                      <section class="module_notice notice_footer">
+          <article class="notice_wrap">
+            <h2 class="notice_title"><a href="/support/notice">공지사항 <span class="icon-arrow_1_right"></span></a></h2>
+            <ul class="notice_list">
+                              <li class="notice_element js_scrolling_notice_element"><a href="/support/notice/620">[업데이트] iOS 앱 v8.8.0</a></li>
+                              <li class="notice_element js_scrolling_notice_element"><a href="/support/notice/612">[업데이트] PC/Mac 뷰어 v2.3.0</a></li>
+                              <li class="notice_element js_scrolling_notice_element"><a href="/support/notice/608">[업데이트] 안드로이드 앱 v8.7.3</a></li>
+                              <li class="notice_element js_scrolling_notice_element"><a href="/support/notice/590">[업데이트] 페이퍼 (PAPER) v1.6.3</a></li>
+                          </ul>
+          </article>
+        </section><hr>
+            <footer id="books_footer">
+        <div class="footer_wrap">
+          <div class="corp_info">
+            <h2 class="indent_hidden">회사 정보</h2>
+            <ul class="info_contact">
+              <li class="contact_tel"><span class="icon-call_center"></span><span class="indent_hidden">전화번호 : </span><span class="museo_sans">1644-0331</span></li>
+              <li class="list_support"><a href="https://help.ridibooks.com/hc/ko" target="_blank">고객센터</a></li>
+              <li class="list_faq"><a href="https://help.ridibooks.com/hc/ko/categories/115001655168" target="_blank">자주 묻는 질문</a></li>
+              <li class="contact_one"><a href="https://ridihelp.zendesk.com/hc/ko/requests/new" target="_blank">1:1 문의하기</a></li>
+            </ul>
+            <address class="info_address">
+              리디 (주) / 대표 배기식 / 서울시 강남구 역삼동 702-28 어반벤치빌딩 10층 (테헤란로 325)<br/>
+              사업자등록번호 120-87-27435 / 통신판매업신고 제 2009-서울강남 35-02139호<br/>
+            </address>
+            <p class="info_security">
+              개인정보보호책임자 <a class="security_email" href="mailto:security@ridi.com">security@ridi.com</a>
+            </p>
+            <ul class="info_link">
+              <li><a class="link_prov" href="/legal/terms" target="_blank">이용약관</a></li>
+              <li><a class="link_personal" href="/legal/privacy" target="_blank">개인정보처리방침</a></li>
+              <li><a class="link_youth" href="/legal/youth" target="_blank">청소년보호정책</a></li>
+              <li><a class="link_business" href="http://ftc.go.kr/info/bizinfo/communicationList.jsp" target="_blank">사업자 정보 확인</a></li>
+            </ul>
+            <p class="info_copyright">&copy; RIDI Corp.</p>
+          </div>
+          <div class="other_menu">
+            <h2 class="indent_hidden">바로가기</h2>
+            <ul class="other_menu_wrap">
+              <li>
+                <h3>About</h3>
+                <ul class="menu_list">
+                  <li><a href="https://www.ridicorp.com/" target="_blank">회사 소개</a></li>
+                  <li><a href="https://www.ridicorp.com/career/" target="_blank">인재 채용 <span class="icon-new_1 new_icon"></span></a></li>
+                </ul>
+              </li>
+              <li>
+                <h3>서비스 이용</h3>
+                <ul class="menu_list">
+                  <li><a href="/order/checkout/cash" class='js_login_required'>리디캐시 충전</a></li>
+                  <li><a href="/support/app/download">뷰어 다운로드</a></li>
+                  <li><a href="/support/notice">공지사항</a></li>
+                  <li><a href="https://help.ridibooks.com/hc/ko" target="_blank">고객센터</a></li>
+                </ul>
+              </li>
+              <li>
+                <h3>파트너십</h3>
+                <ul class="menu_list">
+                  <li><a href="/partners/">제휴 문의</a></li>
+                  <li><a href="https://cp.ridibooks.com" target="_blank">CP사이트</a></li>
+                </ul>
+              </li>
+              <li>
+                <h3>리디북스 소식</h3>
+                <ul class="menu_list list_news">
+                  <li><a href="/account/modify"><span class="icon_wrap"><span class="icon-mail"></span></span> 뉴스레터</a></li>
+                  <li><a href="https://www.facebook.com/ridibooks" target="_blank"><span class="icon_wrap"><span class="icon-facebook_2"></span></span> 페이스북</a></li>
+                  <li><a href="https://twitter.com/ridibooks" target="_blank"><span class="icon_wrap"><span class="icon-twitter_2"></span></span> 트위터</a></li>
+                  <li><a href="http://blog.naver.com/ridibooks" target="_blank"><span class="icon_wrap"><span class="icon-naver_blog"></span></span> 블로그</a></li>
+                  <li><a href="https://instagram.com/ridibookspaper/" target="_blank"><span class="icon_wrap"><span class="icon-instagram_1"></span></span> 인스타그램</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="footer_badge">
+          <li class="badge_wrapper">
+            <div class="badge_logo logo_first_brand">
+              <a href="http://fba.kcforum.co.kr/" target="_blank">
+                <img src="https://static.ridibooks.com/books/dist/images/cert/first_brand.png" class="badge_img" alt="퍼스트브랜드 대상">
+              </a>
+            </div>
+            <p class="badge_text">
+              <strong class="text_main">퍼스트브랜드 대상</strong>
+              <span class="text_sub">전자책 부문 3년 연속</span>
+            </p>
+          </li>
+          <li class="badge_wrapper">
+            <div class="badge_logo logo_clean_site">
+              <a href="http://www.cleansite.org/introduce/summary.php" target="_blank">
+                <img src="https://static.ridibooks.com/books/dist/images/cert/clean_site.png" class="badge_img" alt="clean site">
+              </a>
+            </div>
+            <p class="badge_text">
+              <strong class="text_main">CLEAN SITE</strong>
+              <span class="text_sub">출판/만화 분야</span>
+            </p>
+          </li>
+        </ul>
+      </footer>
+      </div>
+  <div id="base_popup_and_spinner_wrapper">
+    <div id="full_page_spinner">
+      <div class="spinner_dimmed_bg"></div>
+      <div class="spinner_wrapper">
+        <img class="spinner" src="https://static.ridibooks.com/books/dist/images/spinner/full_page_spinner.gif" alt="spinner">
+      </div>
+    </div>
+        <div class="mobile_view_button_wrapper">
+      <a href="/device/m" class="mobile_view_button rui_button_white_40"><span class="mobile_view_button_icon icon-mobile"></span>모바일 버전</a>
+    </div>
+
+    <div id="login_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box">
+    <button class="popup_box_close_button js_popup_close" type="button">
+      <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+    </button>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+<div id="signup_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box js_signup_popup_box">
+    <div class="popup_header">
+      <div class="header_logo"></div>
+      <button class="popup_box_close_button js_popup_close" type="button">
+        <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+      </button>
+    </div>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+<div id="signup_complete_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box">
+    <button class="popup_box_close_button js_popup_close" type="button">
+      <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+    </button>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+<div id="find_id_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box">
+    <button class="popup_box_close_button js_popup_close" type="button">
+      <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+    </button>
+    <button class="popup_box_back_button js_popup_login" type="button">
+      <span class="return_icon"></span><span class="indent_hidden">로그인페이지로</span>
+    </button>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+<div id="find_password_popup" class="module_dim_popup" style="display: none;">
+  <div class="dim_bg js_popup_close"></div>
+  <div class="popup_box">
+    <button class="popup_box_close_button js_popup_close" type="button">
+      <span class="close_icon"></span><span class="indent_hidden">닫기</span>
+    </button>
+    <button class="popup_box_back_button js_popup_login" type="button">
+      <span class="return_icon"></span><span class="indent_hidden">로그인페이지로</span>
+    </button>
+    <div class="popup_contents_wrapper"></div>
+  </div>
+</div>
+          <iframe id="iframe_book_download" width="0" height="0" title="내용없음"></iframe>
+      </div>
+  <div id="base_script_wrapper">
+        <!-- Google 리마케팅 태그 코드 -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 971507236;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<div style="display:block;height:0;width:0;overflow:hidden;">
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971507236/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+  </noscript>
+</div>
+<!-- Google Adwords RIDI's own account (Not Echo marketing) -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 852154850;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<div style="display:block;height:0;width:0;overflow:hidden;">
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971507236/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+  </noscript>
+</div>
+<!-- Naver Premium Log Analytics Common Script -->
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">
+  if(!wcs_add) var wcs_add = {};
+  if(!_nasa) var _nasa={};
+  if(typeof wcs !== 'undefined') {
+    wcs_add["wa"] = "s_116898344f34";
+    wcs.inflow("ridibooks.com");
+    wcs_do(_nasa);
+  }
+</script>
+  </div>
+</body>
+</html>
